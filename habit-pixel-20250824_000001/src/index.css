@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-pixel-light text-pixel-dark;
+  }
+}
+
+@layer components {
+  .pixel-button {
+    @apply px-4 py-2 font-pixel text-sm uppercase tracking-wider transition-all duration-150;
+    @apply hover:translate-x-1 hover:-translate-y-1;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .pixel-button:active {
+    @apply translate-x-0 translate-y-0;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .pixel-card {
+    @apply bg-white border-4 border-pixel-dark p-4;
+    box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.15);
+  }
+
+  .pixel-progress {
+    @apply relative h-8 bg-gray-200 border-2 border-pixel-dark;
+  }
+
+  .pixel-progress-fill {
+    @apply absolute top-0 left-0 h-full transition-all duration-500;
+    background-image: repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 10px,
+      rgba(255, 255, 255, 0.1) 10px,
+      rgba(255, 255, 255, 0.1) 20px
+    );
+  }
+}
