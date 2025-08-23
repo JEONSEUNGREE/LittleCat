@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 antialiased;
+  }
+  
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  input, textarea, button, select {
+    @apply outline-none focus:outline-none;
+  }
+}
+
+@layer components {
+  .glass-effect {
+    @apply backdrop-blur-md bg-white/70 border border-white/20 shadow-lg;
+  }
+  
+  .habit-card {
+    @apply glass-effect rounded-2xl p-4 transition-all duration-300 hover:scale-[1.02] active:scale-[0.98];
+  }
+  
+  .btn-primary {
+    @apply bg-gradient-to-r from-primary-500 to-primary-600 text-white font-semibold py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transform transition-all duration-200 active:scale-95;
+  }
+}
