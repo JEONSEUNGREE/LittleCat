@@ -1,5 +1,5 @@
 import React from 'react'
-import { Clock, Heart, MessageCircle, TrendingUp, User } from 'lucide-react'
+import { Clock, MessageCircle, TrendingUp, User } from 'lucide-react'
 import { Friend, MoodEntry, MoodType } from '../store/useMoodStore'
 
 interface FriendMoodListProps {

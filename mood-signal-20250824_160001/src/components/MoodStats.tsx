@@ -28,7 +28,6 @@ export const MoodStats: React.FC<MoodStatsProps> = ({ moodHistory, friendMoods }
   }
 
   const userMoodCounts = getMoodCounts(moodHistory)
-  const friendMoodCounts = getMoodCounts(friendMoods)
 
   const mostFrequentMood = React.useMemo(() => {
     const entries = Object.entries(userMoodCounts)
