@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react'
+import { useState, useMemo } from 'react'
 import { usePasswordStore, PasswordEntry } from './store/passwordStore'
 import { SearchBar } from './components/SearchBar'
 import { PasswordCard } from './components/PasswordCard'
