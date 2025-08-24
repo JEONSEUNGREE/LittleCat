@@ -119,7 +119,6 @@ export const usePomodoroStore = create<PomodoroState>()(
       },
       
       skipSession: () => {
-        const state = get()
         get().completeSession()
       },
       

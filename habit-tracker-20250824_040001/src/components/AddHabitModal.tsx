@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, Plus, Dumbbell, Book, Heart, Coffee, Moon, Sparkles } from 'lucide-react';
+import { X, Plus } from 'lucide-react';
 import { useHabitStore } from '../store/habitStore';
 
 interface AddHabitModalProps {

@@ -60,7 +60,7 @@ const AddHabitModal: React.FC<AddHabitModalProps> = ({ onClose }) => {
     targetDays: undefined,
   });
 
-  const [errors, setErrors] = useState<Partial<HabitFormData>>({});
+  const [errors, setErrors] = useState<Partial<Record<keyof HabitFormData, string>>>({});
 
   // Populate form when editing
   useEffect(() => {
@@ -76,7 +76,7 @@ const AddHabitModal: React.FC<AddHabitModalProps> = ({ onClose }) => {
   }, [editingHabit]);
 
   const validateForm = (): boolean => {
-    const newErrors: Partial<HabitFormData> = {};
+    const newErrors: Partial<Record<keyof HabitFormData, string>> = {};
 
     if (!formData.name.trim()) {
       newErrors.name = 'Habit name is required';

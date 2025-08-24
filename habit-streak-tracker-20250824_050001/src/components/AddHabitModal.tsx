@@ -23,7 +23,7 @@ const AddHabitModal: React.FC<AddHabitModalProps> = ({ isOpen, onClose }) => {
     description: '',
     icon: '🎯',
     color: '#6366f1',
-    targetFrequency: 'daily' as const,
+    targetFrequency: 'daily' as 'daily' | 'weekly' | 'monthly',
     targetCount: 1,
   });
 

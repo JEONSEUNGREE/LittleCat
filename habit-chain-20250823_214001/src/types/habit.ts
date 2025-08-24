@@ -1,9 +1,33 @@
+export type HabitColor = 
+  | 'blue' 
+  | 'green' 
+  | 'purple' 
+  | 'red' 
+  | 'yellow' 
+  | 'pink' 
+  | 'indigo' 
+  | 'gray';
+
+export type HabitIcon = 
+  | 'target'
+  | 'heart'
+  | 'book'
+  | 'dumbbell'
+  | 'coffee'
+  | 'moon'
+  | 'sun'
+  | 'droplet'
+  | 'zap'
+  | 'star'
+  | 'leaf'
+  | 'brain';
+
 export interface Habit {
   id: string;
   name: string;
   description?: string;
-  color: string;
-  icon: string;
+  color: HabitColor;
+  icon: HabitIcon;
   createdAt: Date;
   updatedAt: Date;
   targetDays?: number;
@@ -32,30 +56,6 @@ export interface HabitWithStats extends Habit {
   isCompletedToday: boolean;
   completions: HabitCompletion[];
 }
-
-export type HabitColor = 
-  | 'blue' 
-  | 'green' 
-  | 'purple' 
-  | 'red' 
-  | 'yellow' 
-  | 'pink' 
-  | 'indigo' 
-  | 'gray';
-
-export type HabitIcon = 
-  | 'target'
-  | 'heart'
-  | 'book'
-  | 'dumbbell'
-  | 'coffee'
-  | 'moon'
-  | 'sun'
-  | 'droplet'
-  | 'zap'
-  | 'star'
-  | 'leaf'
-  | 'brain';
 
 export interface ViewMode {
   type: 'list' | 'calendar' | 'stats';

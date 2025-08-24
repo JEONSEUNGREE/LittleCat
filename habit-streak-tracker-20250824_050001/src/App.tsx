@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Plus, Moon, Sun, Trophy, Calendar } from 'lucide-react';
 import useHabitStore from './store/habitStore';
 import HabitCard from './components/HabitCard';

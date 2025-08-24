@@ -1,4 +1,3 @@
-import React from 'react'
 import { GameHeader } from './components/GameHeader'
 import { GameBoard } from './components/GameBoard'
 import { GameControls } from './components/GameControls'

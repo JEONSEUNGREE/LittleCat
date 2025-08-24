@@ -17,16 +17,17 @@ import {
   Leaf,
   Brain,
   MoreVertical,
-  Archive
+  Archive,
+  LucideIcon
 } from 'lucide-react';
-import { HabitWithStats } from '../types/habit';
+import { HabitWithStats, HabitIcon, HabitColor } from '../types/habit';
 import { useHabitStore } from '../store/habitStore';
 
 interface HabitItemProps {
   habit: HabitWithStats;
 }
 
-const iconMap = {
+const iconMap: Record<HabitIcon, LucideIcon> = {
   target: Target,
   heart: Heart,
   book: Book,
@@ -41,7 +42,13 @@ const iconMap = {
   brain: Brain,
 };
 
-const colorMap = {
+const colorMap: Record<HabitColor, {
+  bg: string;
+  border: string;
+  text: string;
+  icon: string;
+  completed: string;
+}> = {
   blue: {
     bg: 'bg-blue-50',
     border: 'border-blue-200',

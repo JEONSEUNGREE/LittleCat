@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { MoodEntry } from './components/MoodEntry'
 import { MoodHistory } from './components/MoodHistory'
 import { MoodStats } from './components/MoodStats'

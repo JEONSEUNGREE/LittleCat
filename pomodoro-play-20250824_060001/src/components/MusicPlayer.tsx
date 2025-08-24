@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import { Music, Volume2, VolumeX, Radio, Headphones } from 'lucide-react'
 import { usePomodoroStore } from '../store/usePomodoroStore'
 
@@ -8,8 +8,8 @@ const PRESET_MUSIC = [
   { id: 'classical', name: '클래식', icon: Music, url: 'https://www.youtube.com/watch?v=mIYzp5rcTvU' },
 ]
 
-export const MusicPlayer: React.FC = () => {
-  const { isRunning, soundEnabled, updateSettings, musicUrl, setMusicUrl } = usePomodoroStore()
+export const MusicPlayer = () => {
+  const { isRunning, musicUrl, setMusicUrl } = usePomodoroStore()
   const [selectedPreset, setSelectedPreset] = useState<string | null>(null)
   const [volume, setVolume] = useState(50)
   const [isMuted, setIsMuted] = useState(false)

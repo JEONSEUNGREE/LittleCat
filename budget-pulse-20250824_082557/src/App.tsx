@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { Activity } from 'lucide-react'
 import PulseMonitor from './components/PulseMonitor'
 import TransactionForm from './components/TransactionForm'

@@ -9,7 +9,7 @@ import {
   ViewMode, 
   AppSettings 
 } from '../types/habit';
-import { format, startOfDay, isToday, differenceInDays, parseISO } from 'date-fns';
+import { format, startOfDay, differenceInDays } from 'date-fns';
 
 interface HabitStore {
   // State

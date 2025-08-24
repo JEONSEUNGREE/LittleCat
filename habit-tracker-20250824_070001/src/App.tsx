@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Plus, Moon, Sun, Menu, X as CloseIcon, Trash2 } from 'lucide-react';
 import HabitCard from './components/HabitCard';
 import AddHabitModal from './components/AddHabitModal';

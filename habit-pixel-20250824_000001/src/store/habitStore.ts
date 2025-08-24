@@ -23,7 +23,7 @@ interface HabitStore {
   calculateLevel: () => void
 }
 
-const useHabitStore = create<HabitStore>((set, get) => ({
+const useHabitStore = create<HabitStore>((set) => ({
   habits: [
     {
       id: '1',

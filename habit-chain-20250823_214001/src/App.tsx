@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Plus, BarChart3, Calendar, List, Settings } from 'lucide-react';
+import { Plus, BarChart3, Calendar, List } from 'lucide-react';
 import { useHabitStore } from './store/habitStore';
 import HabitList from './components/HabitList';
 import AddHabitModal from './components/AddHabitModal';

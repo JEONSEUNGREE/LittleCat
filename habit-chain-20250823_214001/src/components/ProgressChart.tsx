@@ -9,7 +9,7 @@ import {
   BarChart3
 } from 'lucide-react';
 import { useHabitStore } from '../store/habitStore';
-import { format, subDays, startOfWeek, endOfWeek, eachDayOfInterval, isToday, parseISO } from 'date-fns';
+import { format, subDays, isToday } from 'date-fns';
 
 const ProgressChart: React.FC = () => {
   const { getHabitsWithStats, getOverallStats, completions } = useHabitStore();

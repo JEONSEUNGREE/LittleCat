@@ -70,7 +70,7 @@ const HabitCard = ({ habit }: HabitCardProps) => {
 
       <div className="flex items-center justify-between">
         <div className="flex gap-1">
-          {last7Days.map((date, index) => {
+          {last7Days.map((date) => {
             const isCompleted = habit.completions.some((c) => c.date === date)
             const isToday = date === today
             

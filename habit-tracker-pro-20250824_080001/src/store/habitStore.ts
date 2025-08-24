@@ -1,6 +1,6 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
-import { Habit, Completion, HabitStats } from '../types/habit'
+import { Habit, HabitStats } from '../types/habit'
 
 interface HabitStore {
   habits: Habit[]
