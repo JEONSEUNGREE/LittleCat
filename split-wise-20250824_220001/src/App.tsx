@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Calculator, List, PlusCircle, TrendingUp } from 'lucide-react'
 import BillForm from './components/BillForm'
 import BillList from './components/BillList'

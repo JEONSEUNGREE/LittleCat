@@ -1,9 +1,9 @@
-import React from 'react'
+
 import { Trash2, Eye, Calendar, Users, DollarSign } from 'lucide-react'
 import useBillStore from '../store/useBillStore'
 import BillDetails from './BillDetails'
 
-const BillList: React.FC = () => {
+const BillList = () => {
   const { bills, deleteBill, setCurrentBill, currentBill } = useBillStore()
 
   const formatDate = (date: Date) => {

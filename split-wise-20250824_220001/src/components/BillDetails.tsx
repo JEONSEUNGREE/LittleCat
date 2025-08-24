@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { ArrowLeft, Users, DollarSign, ArrowRight, CheckCircle } from 'lucide-react'
 import useBillStore from '../store/useBillStore'
 
-const BillDetails: React.FC = () => {
+const BillDetails = () => {
   const { currentBill, setCurrentBill, updateBill, getBalance } = useBillStore()
   const [paidAmounts, setPaidAmounts] = useState<{ [key: string]: string }>({})
 

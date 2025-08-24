@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Plus, X, Users, DollarSign, Calculator } from 'lucide-react'
 import useBillStore, { Bill, Participant } from '../store/useBillStore'
 
-const BillForm: React.FC = () => {
+const BillForm = () => {
   const { addBill } = useBillStore()
   const [title, setTitle] = useState('')
   const [totalAmount, setTotalAmount] = useState('')
