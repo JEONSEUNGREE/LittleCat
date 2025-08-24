@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Plus, Music, BarChart3, Settings, Play, Pause } from 'lucide-react'
 import useMemoryStore from './store/memoryStore'
 import CardDisplay from './components/CardDisplay'

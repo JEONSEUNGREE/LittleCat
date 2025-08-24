@@ -1,6 +1,6 @@
 import React from 'react'
 import { ChevronDown } from 'lucide-react'
-import { unitCategories, Unit } from '../data/units'
+import { unitCategories } from '../data/units'
 
 interface UnitSelectorProps {
   value: string

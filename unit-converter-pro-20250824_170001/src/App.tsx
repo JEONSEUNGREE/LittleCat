@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Calculator, History, Star, Info } from 'lucide-react'
 import { CategorySelector } from './components/CategorySelector'
 import { Converter } from './components/Converter'

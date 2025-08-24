@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { Brain, Plus, Home, BarChart3, Settings } from 'lucide-react'
 import { useFlashCardStore } from './store/flashCardStore'
 import { DeckList } from './components/DeckList'
@@ -24,7 +24,7 @@ function App() {
   // Initialize with sample data if empty
   useEffect(() => {
     if (decks.length === 0) {
-      const sampleDeckId = createDeck(
+      createDeck(
         '기본 학습 덱',
         '플래시카드 학습을 시작해보세요!'
       )

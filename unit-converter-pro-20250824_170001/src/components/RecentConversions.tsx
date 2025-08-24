@@ -1,6 +1,6 @@
 import React from 'react'
-import { Clock, Trash2, ArrowRight } from 'lucide-react'
-import { useConverterStore } from '../store/useConverterStore'
+import { Clock, ArrowRight } from 'lucide-react'
+import { useConverterStore, Conversion } from '../store/useConverterStore'
 import { unitCategories } from '../data/units'
 
 export const RecentConversions: React.FC = () => {
@@ -12,7 +12,7 @@ export const RecentConversions: React.FC = () => {
     setToUnit
   } = useConverterStore()
 
-  const handleSelect = (conversion: any) => {
+  const handleSelect = (conversion: Conversion) => {
     setSelectedCategory(conversion.category)
     setFromUnit(conversion.fromUnit)
     setToUnit(conversion.toUnit)

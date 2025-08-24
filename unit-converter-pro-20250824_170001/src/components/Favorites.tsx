@@ -1,6 +1,6 @@
 import React from 'react'
 import { Star, Trash2, ArrowRight } from 'lucide-react'
-import { useConverterStore } from '../store/useConverterStore'
+import { useConverterStore, Conversion } from '../store/useConverterStore'
 import { unitCategories } from '../data/units'
 
 export const Favorites: React.FC = () => {
@@ -12,7 +12,7 @@ export const Favorites: React.FC = () => {
     setToUnit
   } = useConverterStore()
 
-  const handleSelect = (favorite: any) => {
+  const handleSelect = (favorite: Conversion) => {
     setSelectedCategory(favorite.category)
     setFromUnit(favorite.fromUnit)
     setToUnit(favorite.toUnit)

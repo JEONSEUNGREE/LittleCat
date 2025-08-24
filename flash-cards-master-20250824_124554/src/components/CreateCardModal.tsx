@@ -8,13 +8,13 @@ interface CreateCardModalProps {
   deckId?: string
 }
 
-export const CreateCardModal: React.FC<CreateCardModalProps> = ({ isOpen, onClose, deckId }) => {
+export const CreateCardModal: React.FC<CreateCardModalProps> = ({ isOpen, onClose }) => {
   const [front, setFront] = useState('')
   const [back, setBack] = useState('')
   const [category, setCategory] = useState('')
   const [difficulty, setDifficulty] = useState<'easy' | 'medium' | 'hard'>('medium')
   
-  const { addCard, addCardToDeck } = useFlashCardStore()
+  const { addCard } = useFlashCardStore()
 
   if (!isOpen) return null
 
