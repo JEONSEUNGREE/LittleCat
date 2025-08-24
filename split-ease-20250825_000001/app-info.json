@@ -1,0 +1,24 @@
+{
+  "name": "Split Ease",
+  "koreanName": "더치페이 계산기",
+  "englishName": "split-ease",
+  "category": "financial",
+  "description": "스마트한 그룹 정산 및 더치페이 계산기",
+  "features": [
+    "균등/커스텀 금액 분할",
+    "자동 팁 계산",
+    "최대 20명 인원 관리",
+    "실시간 지불 상태 추적",
+    "모바일 최적화 디자인"
+  ],
+  "tech": {
+    "frontend": "Vite + React 18 + TypeScript",
+    "styling": "Tailwind CSS",
+    "state": "Zustand",
+    "icons": "Lucide React"
+  },
+  "createdAt": "2025-08-25T00:00:01",
+  "path": "/home/tory/cronjob/frontApp/LittleCat/split-ease-20250825_000001",
+  "status": "completed",
+  "uniqueness": "기존 앱들이 개인 재정 관리에 집중하는 반면, 이 앱은 그룹 재정 정산에 특화"
+}
