@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Settings as SettingsIcon, Bell, Target, Clock, X } from 'lucide-react'
 import { useHydrationStore } from '../store/hydrationStore'
 
