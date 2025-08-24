@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Sparkles, Users, Clock, Menu, X } from 'lucide-react'
 import MoodSelector from './components/MoodSelector'
 import MoodFeed from './components/MoodFeed'
