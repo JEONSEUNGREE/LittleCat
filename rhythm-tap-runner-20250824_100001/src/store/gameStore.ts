@@ -14,6 +14,7 @@ interface Beat {
   id: number
   time: number
   lane: Lane
+  position: number
   hit: boolean
 }
 
@@ -268,3 +269,5 @@ const useGameStore = create<GameStore>((set, get) => ({
     }
   }
 }))
+
+export default useGameStore

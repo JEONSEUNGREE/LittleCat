@@ -1,4 +1,3 @@
-import React from 'react'
 import { Play, Pause, RotateCcw, Trophy, Zap, Music } from 'lucide-react'
 import useGameStore from '../store/gameStore'
 
@@ -188,3 +187,5 @@ const GameUI: React.FC = () => {
     </div>
   )
 }
+
+export default GameUI

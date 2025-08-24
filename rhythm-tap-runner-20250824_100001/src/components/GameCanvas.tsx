@@ -1,6 +1,28 @@
-import React, { useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import { Music, Zap, Star } from 'lucide-react'
 import useGameStore, { Lane } from '../store/gameStore'
+
+interface Beat {
+  id: number
+  time: number
+  lane: Lane
+  position: number
+  hit: boolean
+}
+
+interface Obstacle {
+  id: number
+  lane: Lane
+  position: number
+  type: 'normal' | 'double' | 'bonus'
+}
+
+interface Particle {
+  id: number
+  x: number
+  y: number
+  type: string
+}
 
 const GameCanvas: React.FC = () => {
   const gameAreaRef = useRef<HTMLDivElement>(null)
@@ -130,7 +152,7 @@ const GameCanvas: React.FC = () => {
       </div>
       
       {/* Beat indicators */}
-      {beats.map(beat => (
+      {beats.map((beat: Beat) => (
         <div
           key={beat.id}
           className={`absolute ${getLanePosition(beat.lane)} transform -translate-x-1/2 transition-opacity duration-200`}
@@ -151,7 +173,7 @@ const GameCanvas: React.FC = () => {
       ))}
       
       {/* Obstacles */}
-      {obstacles.map(obstacle => (
+      {obstacles.map((obstacle: Obstacle) => (
         <div
           key={obstacle.id}
           className={`absolute ${getLanePosition(obstacle.lane)} transform -translate-x-1/2`}
@@ -182,7 +204,7 @@ const GameCanvas: React.FC = () => {
       </div>
       
       {/* Particle effects */}
-      {particles.map(particle => (
+      {particles.map((particle: Particle) => (
         <div
           key={particle.id}
           className="absolute animate-ping"
@@ -212,3 +234,5 @@ const GameCanvas: React.FC = () => {
     </div>
   )
 }
+
+export default GameCanvas
