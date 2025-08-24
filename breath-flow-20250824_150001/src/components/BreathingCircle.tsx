@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useBreathStore } from '../store/breathStore'
 
 export const BreathingCircle: React.FC = () => {

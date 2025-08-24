@@ -1,4 +1,3 @@
-import React from 'react'
 import { BreathingCircle } from './components/BreathingCircle'
 import { PatternSelector } from './components/PatternSelector'
 import { Controls } from './components/Controls'

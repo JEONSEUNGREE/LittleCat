@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useBreathStore } from '../store/breathStore'
 import { Play, Pause, RotateCcw, Trophy, Timer } from 'lucide-react'
 
@@ -7,7 +7,7 @@ export const Controls: React.FC = () => {
   const [sessionTime, setSessionTime] = useState(0)
 
   useEffect(() => {
-    let interval: NodeJS.Timeout
+    let interval: ReturnType<typeof setInterval>
 
     if (isBreathing) {
       interval = setInterval(() => {
