@@ -1,4 +1,4 @@
-import React, { useRef, useState, useCallback, useEffect } from 'react';
+import { useRef, useState, useCallback, useEffect } from 'react';
 import useCanvasStore from '../store/useCanvasStore';
 import NoteCard from './NoteCard';
 import ConnectionLine from './ConnectionLine';

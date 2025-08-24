@@ -1,4 +1,4 @@
-import React, { useState, useRef, useCallback, useEffect } from 'react';
+import { useState, useRef, useCallback, useEffect } from 'react';
 import { Trash2, Move, Link } from 'lucide-react';
 import useCanvasStore from '../store/useCanvasStore';
 import { Note } from '../types';

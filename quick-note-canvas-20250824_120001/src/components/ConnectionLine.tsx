@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Note } from '../types';
 
 interface ConnectionLineProps {
