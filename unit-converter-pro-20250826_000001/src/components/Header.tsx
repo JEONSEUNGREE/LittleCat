@@ -1,8 +1,7 @@
-import React from 'react';
 import { Calculator, Moon, Sun } from 'lucide-react';
 import { useConverterStore } from '../store/useConverterStore';
 
-const Header: React.FC = () => {
+const Header = () => {
   const { isDarkMode, toggleDarkMode } = useConverterStore();
 
   return (

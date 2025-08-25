@@ -1,10 +1,9 @@
-import React from 'react';
 import { UnitCategory } from '../types';
 import { unitData } from '../data/units';
 import { useConverterStore } from '../store/useConverterStore';
 import * as Icons from 'lucide-react';
 
-const CategorySelector: React.FC = () => {
+const CategorySelector = () => {
   const { selectedCategory, setCategory, setFromUnit, setToUnit } = useConverterStore();
 
   const handleCategoryChange = (category: UnitCategory) => {
@@ -21,7 +20,7 @@ const CategorySelector: React.FC = () => {
       </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
         {(Object.keys(unitData) as UnitCategory[]).map((category) => {
-          const IconComponent = Icons[unitData[category].icon as keyof typeof Icons] as React.FC<any>;
+          const IconComponent = Icons[unitData[category].icon as keyof typeof Icons] as any;
           const isSelected = selectedCategory === category;
           
           return (

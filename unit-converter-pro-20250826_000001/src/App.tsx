@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import Header from './components/Header';
 import CategorySelector from './components/CategorySelector';
 import Converter from './components/Converter';

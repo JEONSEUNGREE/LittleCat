@@ -1,10 +1,9 @@
-import React from 'react';
 import { Clock, Trash2 } from 'lucide-react';
 import { useConverterStore } from '../store/useConverterStore';
 import { unitData } from '../data/units';
 import { formatNumber } from '../utils/converter';
 
-const History: React.FC = () => {
+const History = () => {
   const { history, clearHistory, setCategory, setFromUnit, setToUnit, setInputValue } = useConverterStore();
 
   const handleHistoryClick = (item: typeof history[0]) => {

@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { ArrowUpDown } from 'lucide-react';
 import { useConverterStore } from '../store/useConverterStore';
 import { unitData } from '../data/units';
 import { convert, formatNumber } from '../utils/converter';
 import { ConversionResult } from '../types';
 
-const Converter: React.FC = () => {
+const Converter = () => {
   const {
     selectedCategory,
     fromUnit,
