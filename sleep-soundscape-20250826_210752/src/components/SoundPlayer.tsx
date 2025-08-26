@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Play, Pause, Moon, Sun, CloudRain, Volume2 } from 'lucide-react'
 import { useSoundStore, SleepPhase } from '../store/soundStore'
 
