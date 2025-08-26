@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Heart, Cloud, Frown, AlertCircle, Flame, Sparkles, Circle } from 'lucide-react';
 import { Mood } from '../types';
 import { useMoodStore } from '../store/useMoodStore';

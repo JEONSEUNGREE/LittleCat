@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { Brain, Users, MessageCircle, BarChart3 } from 'lucide-react';
 import { useMoodStore } from './store/useMoodStore';
 import { MoodSelector } from './components/MoodSelector';

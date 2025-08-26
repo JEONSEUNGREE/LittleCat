@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Send, Heart, Users } from 'lucide-react';
 import { MoodMessage } from '../types';
 import { useMoodStore } from '../store/useMoodStore';

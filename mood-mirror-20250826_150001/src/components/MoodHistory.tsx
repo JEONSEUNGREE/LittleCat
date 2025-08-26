@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Calendar, TrendingUp, Activity } from 'lucide-react';
 import { useMoodStore } from '../store/useMoodStore';
 import { Mood } from '../types';
