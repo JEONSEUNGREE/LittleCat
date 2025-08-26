@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { ArrowUpDown, Star, Copy, Check } from 'lucide-react';
 import { useConverterStore } from '../store/useConverterStore';
 import { convertTemperature } from '../data/units';
 
-export const UnitConverter: React.FC = () => {
+export const UnitConverter = () => {
   const {
     selectedCategory,
     fromUnit,

@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import { useState, type KeyboardEvent } from 'react';
 import { Calculator, X } from 'lucide-react';
 
-export const QuickConvert: React.FC = () => {
+export const QuickConvert = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [expression, setExpression] = useState('');
   const [result, setResult] = useState('');
@@ -21,7 +21,7 @@ export const QuickConvert: React.FC = () => {
     }
   };
 
-  const handleKeyPress = (e: React.KeyboardEvent) => {
+  const handleKeyPress = (e: KeyboardEvent<HTMLInputElement>) => {
     if (e.key === 'Enter') {
       calculate();
     }

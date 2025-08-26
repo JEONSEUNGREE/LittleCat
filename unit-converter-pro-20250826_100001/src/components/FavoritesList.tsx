@@ -1,8 +1,7 @@
-import React from 'react';
 import { Trash2, ArrowRight } from 'lucide-react';
 import { useConverterStore } from '../store/useConverterStore';
 
-export const FavoritesList: React.FC = () => {
+export const FavoritesList = () => {
   const { favorites, removeFavorite, applyFavorite } = useConverterStore();
 
   if (favorites.length === 0) {

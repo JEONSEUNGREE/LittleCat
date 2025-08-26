@@ -1,4 +1,3 @@
-import React from 'react';
 import { CategorySelector } from './components/CategorySelector';
 import { UnitConverter } from './components/UnitConverter';
 import { FavoritesList } from './components/FavoritesList';

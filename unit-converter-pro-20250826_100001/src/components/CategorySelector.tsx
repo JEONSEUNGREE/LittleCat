@@ -1,8 +1,7 @@
-import React from 'react';
 import { useConverterStore } from '../store/useConverterStore';
 import { Category } from '../types/converter';
 
-export const CategorySelector: React.FC = () => {
+export const CategorySelector = () => {
   const { categories, selectedCategory, selectCategory } = useConverterStore();
 
   return (
