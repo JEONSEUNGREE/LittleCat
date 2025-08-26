@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Wallet, TrendingUp, TrendingDown, PlusCircle, Edit2 } from 'lucide-react'
 import useCryptoStore from '../store/cryptoStore'
 

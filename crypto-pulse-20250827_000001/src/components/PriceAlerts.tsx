@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Bell, BellOff, Trash2, ChevronUp, ChevronDown, AlertCircle } from 'lucide-react'
 import useCryptoStore from '../store/cryptoStore'
 

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Activity, Menu, X } from 'lucide-react'
 import CryptoList from './components/CryptoList'
 import Portfolio from './components/Portfolio'
