@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Settings, X } from 'lucide-react'
 import MeetingTimer from './components/MeetingTimer'
 import ParticipantTracker from './components/ParticipantTracker'

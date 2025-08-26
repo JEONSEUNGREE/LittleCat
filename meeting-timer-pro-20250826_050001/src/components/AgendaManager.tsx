@@ -1,11 +1,10 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { ListChecks, Plus, X, Clock, CheckCircle } from 'lucide-react'
 import { useMeetingStore } from '../store'
 
-const AgendaManager: React.FC = () => {
+const AgendaManager = () => {
   const {
     agendaItems,
-    activeAgendaId,
     isRunning,
     addAgendaItem,
     removeAgendaItem,

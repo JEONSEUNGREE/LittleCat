@@ -1,11 +1,10 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Users, UserPlus, X, Mic, MicOff } from 'lucide-react'
 import { useMeetingStore } from '../store'
 
-const ParticipantTracker: React.FC = () => {
+const ParticipantTracker = () => {
   const {
     participants,
-    activeParticipantId,
     isRunning,
     addParticipant,
     removeParticipant,

@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { Clock, Play, Pause, Square } from 'lucide-react'
 import { useMeetingStore } from '../store'
 
-const MeetingTimer: React.FC = () => {
+const MeetingTimer = () => {
   const {
     meetingTitle,
     totalMeetingTime,
