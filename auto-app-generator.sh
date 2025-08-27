@@ -3,9 +3,9 @@
 # Auto App Generator Script
 # This script handles git operations for the newly created app
 
-TIMESTAMP="20250826_200001"
-APP_NAME="invest-tracker"
-APP_NAME_KO="투자 추적기"
+TIMESTAMP="20250827_200001"
+APP_NAME="debt-zero-planner"
+APP_NAME_KO="부채 제로 플래너"
 APP_DIR="/home/tory/cronjob/frontApp/LittleCat/${APP_NAME}-${TIMESTAMP}"
 
 echo "========================================="
@@ -14,7 +14,7 @@ echo "========================================="
 echo ""
 echo "선정된 앱: ${APP_NAME_KO}"
 echo "영문명: ${APP_NAME}"
-echo "기능 요약: 실시간 투자 포트폴리오 추적 및 수익률 시각화"
+echo "기능 요약: 눈덩이/눈사태 방식 부채 상환 전략 계산"
 echo "생성 경로: ${APP_DIR}"
 echo ""
 
@@ -59,10 +59,10 @@ if [ -d "$APP_DIR" ]; then
     echo "========================================="
     echo ""
     echo "📊 최종 결과:"
-    echo "- 앱 타입: 금융 관리 도구"
-    echo "- 차별화 포인트: 실시간 투자 포트폴리오 추적 및 수익률 계산"
-    echo "- 핵심 기능: 자산 관리, 수익률 시각화, 카테고리별 필터링"
-    echo "- 컴포넌트: 5개 (Header, Dashboard, PortfolioList, AddAssetModal, App)"
+    echo "- 앱 타입: 금융 관리 도구 (부채 상환 전략)"
+    echo "- 차별화 포인트: 눈덩이/눈사태 방식 자동 계산 및 시각화"
+    echo "- 핵심 기능: 부채 관리, 상환 전략 비교, 진행률 시각화"
+    echo "- 컴포넌트: 6개 (Header, DebtList, AddDebtForm, StrategySelector, RepaymentPlan, App)"
     echo "- 상태관리: Zustand"
     echo "========================================="
 else

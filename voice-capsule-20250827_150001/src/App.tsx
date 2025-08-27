@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Mic, Package, Bell, Info, Plus } from 'lucide-react';
 import RecordButton from './components/RecordButton';
 import CapsuleList from './components/CapsuleList';

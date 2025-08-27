@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Calendar, Clock, Lock, Unlock, Heart, MessageCircle, Share2 } from 'lucide-react';
 import useStore from '../store';
 import { VoiceCapsule } from '../types';

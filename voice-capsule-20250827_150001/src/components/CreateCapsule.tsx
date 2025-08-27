@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { X, Calendar, Users, Globe, Lock, Send, Mic } from 'lucide-react';
 import useStore from '../store';
 import { VoiceCapsule } from '../types';
