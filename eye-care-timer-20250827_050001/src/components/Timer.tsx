@@ -1,4 +1,4 @@
-import React, { useEffect, useCallback } from 'react'
+import { useEffect, useCallback } from 'react'
 import { Play, Pause, RotateCcw, Eye, EyeOff } from 'lucide-react'
 import { useEyeCareStore } from '../store/useEyeCareStore'
 

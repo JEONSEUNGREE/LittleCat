@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Settings as SettingsIcon, Bell, BellOff, Clock, Save } from 'lucide-react'
 import { useEyeCareStore } from '../store/useEyeCareStore'
 
