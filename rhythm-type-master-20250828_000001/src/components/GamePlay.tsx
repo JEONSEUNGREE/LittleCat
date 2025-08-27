@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useCallback } from 'react'
+import { useEffect, useRef, useCallback } from 'react'
 import { Heart, Pause, Play, X, Zap } from 'lucide-react'
 import { useGameStore } from '../store/gameStore'
 
