@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { Clock, Zap, X, CheckCircle, XCircle, Pause, Play } from 'lucide-react';
 import { Difficulty, MathProblem, GameStats } from '../types/game';
 import { generateMathProblem, generateAnswerOptions } from '../utils/mathGenerator';

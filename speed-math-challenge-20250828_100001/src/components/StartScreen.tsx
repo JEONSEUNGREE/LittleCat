@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Brain, Trophy, Zap, Target } from 'lucide-react';
 import { Difficulty } from '../types/game';
 

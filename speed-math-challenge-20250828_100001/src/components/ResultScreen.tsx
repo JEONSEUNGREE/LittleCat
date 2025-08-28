@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Trophy, Target, Zap, Clock, RotateCcw, Home, Star } from 'lucide-react';
 import { GameStats } from '../types/game';
 
