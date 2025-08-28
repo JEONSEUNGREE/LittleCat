@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { useWaterStore } from './store/useWaterStore'
 import { ProfileSetup } from './components/ProfileSetup'
 import { WaterTracker } from './components/WaterTracker'

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Droplet, Plus, Target, Trophy, Coffee, Leaf, Glass } from 'lucide-react'
 import { useWaterStore } from '../store/useWaterStore'
 

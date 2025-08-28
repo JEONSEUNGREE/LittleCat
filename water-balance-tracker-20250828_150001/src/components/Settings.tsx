@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { User, Bell, Target, LogOut, Save } from 'lucide-react'
 import { useWaterStore } from '../store/useWaterStore'
 
