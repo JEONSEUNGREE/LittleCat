@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Shield, BarChart3, Home, Plus } from 'lucide-react';
 
 interface HeaderProps {

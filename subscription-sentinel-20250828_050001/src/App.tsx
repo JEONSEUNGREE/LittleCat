@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { SubscriptionProvider } from './context/SubscriptionContext';
 import Dashboard from './components/Dashboard';
 import AddSubscription from './components/AddSubscription';

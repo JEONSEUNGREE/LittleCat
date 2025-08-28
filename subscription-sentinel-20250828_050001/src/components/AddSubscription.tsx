@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useSubscriptions } from '../context/SubscriptionContext';
 import { SubscriptionFormData, SubscriptionCategory } from '../types';
 import { ArrowLeft, Save, Calendar, DollarSign, Tag, Bell, Globe, FileText } from 'lucide-react';

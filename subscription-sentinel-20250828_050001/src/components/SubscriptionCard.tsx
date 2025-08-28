@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useSubscriptions } from '../context/SubscriptionContext';
 import { Subscription, SubscriptionCategory } from '../types';
 import { 
