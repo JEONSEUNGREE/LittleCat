@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { 
   Ruler, Scale, Thermometer, Beaker, Square, Zap, Clock, HardDrive 
 } from 'lucide-react';

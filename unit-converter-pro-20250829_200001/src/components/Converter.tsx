@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { ArrowUpDown, Copy, Check } from 'lucide-react';
 import { useConverterStore } from '../store/converterStore';
 

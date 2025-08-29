@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { History, TrendingUp } from 'lucide-react';
 import { useConverterStore } from '../store/converterStore';
 
