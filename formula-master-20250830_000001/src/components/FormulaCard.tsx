@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { ChevronDown, ChevronUp, Star, Info } from 'lucide-react'
 import { Formula } from '../store/useFormulaStore'
 
