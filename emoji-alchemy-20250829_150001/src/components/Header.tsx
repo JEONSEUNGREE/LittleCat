@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Sparkles, RotateCcw, HelpCircle } from 'lucide-react';
 
 interface HeaderProps {

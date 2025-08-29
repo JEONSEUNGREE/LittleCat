@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { GameElement } from '../types/game';
 
 interface ElementGridProps {

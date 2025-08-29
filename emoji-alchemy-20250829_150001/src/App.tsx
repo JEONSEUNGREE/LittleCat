@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Header from './components/Header';
 import ElementGrid from './components/ElementGrid';
 import CombinationArea from './components/CombinationArea';

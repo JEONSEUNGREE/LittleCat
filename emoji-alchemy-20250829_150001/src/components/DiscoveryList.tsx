@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Recipe } from '../types/game';
 import { Lock, Unlock } from 'lucide-react';
 
