@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import GameHeader from './components/GameHeader';
 import ScoreBoard from './components/ScoreBoard';
 import GameBoard from './components/GameBoard';

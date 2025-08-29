@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Trophy, Target, Zap, RotateCcw, Pause, Play } from 'lucide-react';
 import { useGameStore } from '../store/gameStore';
 

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Sparkles, HelpCircle, Volume2 } from 'lucide-react';
 
 const GameHeader: React.FC = () => {

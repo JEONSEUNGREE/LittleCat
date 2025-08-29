@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { NumberBlock as NumberBlockType } from '../types/game.types';
 
 interface NumberBlockProps {
