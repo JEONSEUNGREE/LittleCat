@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Eye, EyeOff, Share2, Users } from 'lucide-react'
 import useMoodStore from '../store/useMoodStore'
 import { getMoodGradient, formatTimeAgo } from '../utils/moodUtils'

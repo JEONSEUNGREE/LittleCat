@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Users, TrendingUp, Clock } from 'lucide-react'
 import useMoodStore from '../store/useMoodStore'
 import { getMoodGradient, formatTimeAgo, generateMoodId, MOOD_TYPES, calculateMoodSimilarity } from '../utils/moodUtils'

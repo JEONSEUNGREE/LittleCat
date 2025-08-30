@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Palette, Activity, Users, Menu, X } from 'lucide-react'
 import MoodSelector from './components/MoodSelector'
 import MoodDisplay from './components/MoodDisplay'

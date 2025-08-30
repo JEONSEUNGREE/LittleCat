@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Heart, Sparkles, Cloud, Sun, Moon, Star, Zap, Droplets } from 'lucide-react'
 import { MOOD_TYPES, generateMoodId } from '../utils/moodUtils'
 import useMoodStore from '../store/useMoodStore'
