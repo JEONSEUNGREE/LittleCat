@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Zap, TrendingUp, Trophy } from 'lucide-react';
 import { useGameStore } from '../store/gameStore';
 

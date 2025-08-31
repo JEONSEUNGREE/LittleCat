@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { GameHeader } from './components/GameHeader';
 import { GameCanvas } from './components/GameCanvas';
 import { GameControls } from './components/GameControls';
