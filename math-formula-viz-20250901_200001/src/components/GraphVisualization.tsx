@@ -1,4 +1,4 @@
-import React, { useMemo, useCallback, useState, useEffect } from 'react'
+import { useMemo, useCallback, useState, useEffect } from 'react'
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, ReferenceLine } from 'recharts'
 import { ZoomIn, ZoomOut, RotateCcw, Move, Maximize2 } from 'lucide-react'
 import useFormulaStore from '../store/useFormulaStore'
