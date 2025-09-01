@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import Header from './components/Header'
 import CapsuleList from './components/CapsuleList'
 import RecordButton from './components/RecordButton'

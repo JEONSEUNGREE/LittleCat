@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import { Mic, Square, Send, Clock, X } from 'lucide-react'
 import useCapsuleStore from '../store/useCapsuleStore'
 
