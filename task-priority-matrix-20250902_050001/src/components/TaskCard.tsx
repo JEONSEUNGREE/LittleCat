@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Task } from '../types';
 import { useTaskStore } from '../store/useTaskStore';
 import { Check, Trash2, Clock, Tag } from 'lucide-react';

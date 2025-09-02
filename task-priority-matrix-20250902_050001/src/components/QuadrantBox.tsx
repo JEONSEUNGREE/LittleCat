@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Task, Quadrant } from '../types';
 import TaskCard from './TaskCard';
 import { useTaskStore } from '../store/useTaskStore';

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Matrix from './components/Matrix';
 import AddTaskModal from './components/AddTaskModal';
 import StatsPanel from './components/StatsPanel';
