@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Settings as SettingsIcon, Target, TrendingUp, Info } from 'lucide-react'
 import useCadenceStore from '../store/useCadenceStore'
 

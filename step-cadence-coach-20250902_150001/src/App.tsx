@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Activity, ChartBar, Settings as SettingsIcon } from 'lucide-react'
 import CadenceTracker from './components/CadenceTracker'
 import ProgressChart from './components/ProgressChart'
