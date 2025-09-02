@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { GameCanvas } from './components/GameCanvas';
 import { HUD } from './components/HUD';
 import { Instructions } from './components/Instructions';

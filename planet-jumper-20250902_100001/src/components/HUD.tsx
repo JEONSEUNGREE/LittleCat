@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useGameStore } from '../store/gameStore';
 import { Rocket, Target, RotateCcw, Play } from 'lucide-react';
 

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Planet as PlanetType } from '../types/game';
 import { Sparkles } from 'lucide-react';
 

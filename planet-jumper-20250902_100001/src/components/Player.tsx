@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Player as PlayerType } from '../types/game';
 import { Rocket } from 'lucide-react';
 
