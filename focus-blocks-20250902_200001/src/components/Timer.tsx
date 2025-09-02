@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import { Play, Pause, SkipForward, Square } from 'lucide-react'
 import useFocusStore from '../store/useFocusStore'
 

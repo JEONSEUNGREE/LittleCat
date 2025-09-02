@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Settings as SettingsIcon, BarChart3, Brain } from 'lucide-react'
 import Timer from './components/Timer'
 import Statistics from './components/Statistics'

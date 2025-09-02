@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Settings as SettingsIcon, X, Save } from 'lucide-react'
 import useFocusStore from '../store/useFocusStore'
 
