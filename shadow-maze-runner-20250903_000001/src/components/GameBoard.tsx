@@ -1,4 +1,4 @@
-import React, { useEffect, useCallback } from 'react';
+import { useEffect, useCallback } from 'react';
 import { useGameStore } from '../store/gameStore';
 import { Sparkles } from 'lucide-react';
 
