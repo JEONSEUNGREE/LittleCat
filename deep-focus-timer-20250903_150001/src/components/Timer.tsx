@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { Play, Pause, Square, Brain, Coffee } from 'lucide-react'
 import { useTimerStore } from '../store/useTimerStore'
 

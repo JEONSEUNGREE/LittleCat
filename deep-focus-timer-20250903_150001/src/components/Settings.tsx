@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Settings as SettingsIcon, X, Target, Clock, Volume2, Bell } from 'lucide-react'
 import { useTimerStore } from '../store/useTimerStore'
 
