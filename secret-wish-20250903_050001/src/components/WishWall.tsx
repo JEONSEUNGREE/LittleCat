@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { RefreshCw, TrendingUp, Clock, Shuffle } from 'lucide-react'
 import { useWishStore } from '../store/wishStore'
 import { WishCard } from './WishCard'

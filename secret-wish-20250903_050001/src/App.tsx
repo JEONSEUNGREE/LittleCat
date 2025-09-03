@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Plus, Moon, Star, Heart, Info } from 'lucide-react'
 import { WishWall } from './components/WishWall'
 import { CreateWish } from './components/CreateWish'
