@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Brain, Sparkles } from 'lucide-react';
 import FormulaCard from './components/FormulaCard';
 import FilterBar from './components/FilterBar';

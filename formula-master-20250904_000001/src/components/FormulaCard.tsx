@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Formula } from '../types/formula';
 import { Brain, CheckCircle, RotateCcw, Eye, BookOpen } from 'lucide-react';
 import { useFormulaStore } from '../store/formulaStore';

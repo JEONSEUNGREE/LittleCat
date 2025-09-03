@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Search, Filter, BookOpen, Award } from 'lucide-react';
 import { useFormulaStore } from '../store/formulaStore';
 

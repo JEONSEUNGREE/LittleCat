@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { TrendingUp, Award, BookOpen, BarChart3, RefreshCw } from 'lucide-react';
 import { useFormulaStore } from '../store/formulaStore';
 
