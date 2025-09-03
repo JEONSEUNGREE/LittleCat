@@ -1,4 +1,4 @@
-import React from 'react';
+
 import GameBoard from './components/GameBoard';
 import GravityControls from './components/GravityControls';
 import LevelInfo from './components/LevelInfo';

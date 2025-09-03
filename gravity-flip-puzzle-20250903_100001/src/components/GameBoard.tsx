@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useGameStore } from '../store/gameStore';
 import { GameObject } from '../types';
 import { Target, Box, User, Square, AlertTriangle } from 'lucide-react';

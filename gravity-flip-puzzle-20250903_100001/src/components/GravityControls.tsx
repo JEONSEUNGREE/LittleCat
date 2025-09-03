@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useGameStore } from '../store/gameStore';
 import { ChevronUp, ChevronDown, ChevronLeft, ChevronRight, RotateCw, Pause, Play } from 'lucide-react';
 import { GravityDirection } from '../types';
