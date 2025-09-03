@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import { TrendingUp, Grid3x3 } from 'lucide-react'
 import { useFormulaStore } from '../store/useFormulaStore'
 
