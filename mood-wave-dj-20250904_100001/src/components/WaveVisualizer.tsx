@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import useMoodStore from '../store/useMoodStore'
 
 const WaveVisualizer: React.FC = () => {
