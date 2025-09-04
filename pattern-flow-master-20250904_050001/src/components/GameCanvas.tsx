@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react'
+import { useRef, useEffect, useState } from 'react'
 import { useGameStore } from '../store/gameStore'
 
 export const GameCanvas: React.FC = () => {

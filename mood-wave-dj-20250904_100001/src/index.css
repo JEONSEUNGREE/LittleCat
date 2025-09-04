@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@layer utilities {
+  .gradient-mood {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  }
+  
+  .gradient-happy {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  }
+  
+  .gradient-calm {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  }
+  
+  .gradient-energetic {
+    background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+  }
+  
+  .gradient-sad {
+    background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);
+  }
+}

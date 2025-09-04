@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { Heart, Trophy, Zap, Timer, Pause } from 'lucide-react'
 import { useGameStore } from '../store/gameStore'
 
