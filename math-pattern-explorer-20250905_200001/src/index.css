@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white min-h-screen;
+  }
+}
+
+@layer components {
+  .pattern-canvas {
+    @apply bg-black/30 backdrop-blur-sm rounded-2xl border border-white/10;
+  }
+  
+  .pattern-button {
+    @apply px-4 py-2 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg hover:from-purple-700 hover:to-pink-700 transition-all duration-200 transform hover:scale-105 active:scale-95 shadow-lg;
+  }
+  
+  .info-card {
+    @apply bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20;
+  }
+}

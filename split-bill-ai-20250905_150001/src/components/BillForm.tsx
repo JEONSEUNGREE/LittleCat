@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Plus, X, DollarSign, Users, ShoppingCart, Calculator, Check, Receipt } from 'lucide-react'
 import { useBillStore, Person, BillItem } from '../store/useBillStore'
 

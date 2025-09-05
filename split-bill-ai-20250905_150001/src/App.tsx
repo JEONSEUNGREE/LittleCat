@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Plus, Receipt } from 'lucide-react'
 import Header from './components/Header'
 import BillForm from './components/BillForm'
