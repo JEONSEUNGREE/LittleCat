@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Header } from './components/Header';
 import { MoodSelector } from './components/MoodSelector';
 import { MusicVisualizer } from './components/MusicVisualizer';

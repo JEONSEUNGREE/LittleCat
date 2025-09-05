@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { Play, Pause, RotateCcw, Volume2, Gauge } from 'lucide-react';
 import { useMixerStore } from '../store/useMixerStore';
 import { soundGenerator } from '../utils/soundGenerator';

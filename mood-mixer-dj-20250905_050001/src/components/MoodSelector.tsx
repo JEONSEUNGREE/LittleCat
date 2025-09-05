@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { MOODS } from '../data/moods';
 import { useMixerStore } from '../store/useMixerStore';
 import { Mood } from '../types';

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Music, Sparkles } from 'lucide-react';
 
 export const Header: React.FC = () => {
