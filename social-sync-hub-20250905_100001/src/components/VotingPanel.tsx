@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { ChevronLeft, Users, Clock, Share2, Heart } from 'lucide-react'
 import { Decision, useSyncStore } from '../store/useSyncStore'
 

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { Plus, Home, Bell, User, TrendingUp } from 'lucide-react'
 import { useSyncStore } from './store/useSyncStore'
 import DecisionCard from './components/DecisionCard'
