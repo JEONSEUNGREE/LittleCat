@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useGameStore } from '../store/gameStore';
 import { Position } from '../types/game';
 import { Zap, Rocket, CircleDot } from 'lucide-react';
