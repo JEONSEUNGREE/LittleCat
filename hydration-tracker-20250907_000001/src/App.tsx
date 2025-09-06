@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { Droplets } from 'lucide-react'
 import useHydrationStore from './store/useHydrationStore'
 import DailyProgress from './components/DailyProgress'
