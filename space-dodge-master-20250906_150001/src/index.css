@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-space-dark text-white overflow-hidden;
+    touch-action: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+}
+
+@layer components {
+  .game-container {
+    @apply fixed inset-0 flex flex-col;
+  }
+
+  .star {
+    @apply absolute rounded-full bg-white;
+    animation: twinkle 3s ease-in-out infinite;
+  }
+
+  .asteroid {
+    @apply absolute rounded-full bg-asteroid-gray;
+    box-shadow: inset -3px -3px 10px rgba(0,0,0,0.5);
+  }
+
+  .spaceship {
+    @apply absolute transition-all duration-100 ease-out;
+  }
+
+  .score-display {
+    @apply text-2xl md:text-3xl font-bold text-star-yellow;
+    text-shadow: 0 0 10px rgba(251, 191, 36, 0.5);
+  }
+
+  .btn-primary {
+    @apply px-6 py-3 bg-space-purple text-white font-bold rounded-lg;
+    @apply hover:bg-purple-600 transition-colors duration-200;
+    @apply active:scale-95 transform;
+  }
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}

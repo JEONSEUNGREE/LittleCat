@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { X, Save, RefreshCw, Shield, Globe, User, FileText } from 'lucide-react'
 import { usePasswordStore, PasswordEntry, PasswordOptions } from '../store/usePasswordStore'
 

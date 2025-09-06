@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Lock, Unlock, Shield, AlertTriangle } from 'lucide-react'
 import { usePasswordStore } from '../store/usePasswordStore'
 

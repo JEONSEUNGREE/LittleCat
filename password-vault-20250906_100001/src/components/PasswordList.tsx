@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react'
+import { useState, useMemo } from 'react'
 import { Copy, Eye, EyeOff, Edit2, Trash2, ExternalLink, Shield, Search } from 'lucide-react'
 import { usePasswordStore, PasswordEntry } from '../store/usePasswordStore'
 
