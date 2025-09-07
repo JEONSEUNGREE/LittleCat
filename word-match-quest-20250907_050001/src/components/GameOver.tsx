@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useGameStore } from '../store/gameStore';
 import { Trophy, RotateCcw, Home, Star } from 'lucide-react';
 
