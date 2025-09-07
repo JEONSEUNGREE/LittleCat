@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Save, Clock, Trophy, Share2, Download, Star } from 'lucide-react'
 import { usePetDJStore } from '../store/petStore'
 

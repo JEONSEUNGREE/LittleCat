@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { Play, Pause, SkipForward, Volume2, Disc, Repeat, Sliders } from 'lucide-react'
 import { usePetDJStore } from '../store/petStore'
 
