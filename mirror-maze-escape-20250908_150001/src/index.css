@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-maze-dark text-white overflow-hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+}
+
+@layer components {
+  .laser-beam {
+    box-shadow: 
+      0 0 10px var(--tw-shadow-color),
+      0 0 20px var(--tw-shadow-color),
+      0 0 30px var(--tw-shadow-color);
+  }
+  
+  .mirror-gradient {
+    background: linear-gradient(135deg, #e0e7ff 0%, #c0c0c0 50%, #e0e7ff 100%);
+  }
+  
+  .wall-texture {
+    background-image: repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 10px,
+      rgba(255, 255, 255, 0.05) 10px,
+      rgba(255, 255, 255, 0.05) 20px
+    );
+  }
+  
+  .grid-cell {
+    @apply relative border border-gray-700 transition-all duration-300;
+  }
+  
+  .success-animation {
+    animation: success-burst 0.6s ease-out;
+  }
+}
+
+@layer utilities {
+  .prevent-select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .touch-manipulation {
+    touch-action: manipulation;
+  }
+}
