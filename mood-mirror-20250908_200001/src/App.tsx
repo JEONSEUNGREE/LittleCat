@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Palette, Users, Clock, Menu, X, Moon, Sun } from 'lucide-react';
 import { MoodSelector } from './components/MoodSelector';
 import { CommunityMoodStream } from './components/CommunityMoodStream';

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { Heart, Users, Sparkles } from 'lucide-react';
 import { useMoodStore } from '../store/useMoodStore';
 import { MoodVisualization } from './MoodVisualization';

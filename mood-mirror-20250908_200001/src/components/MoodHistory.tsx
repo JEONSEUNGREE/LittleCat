@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Clock, TrendingUp, Calendar } from 'lucide-react';
 import { useMoodStore } from '../store/useMoodStore';
 import { MoodVisualization } from './MoodVisualization';

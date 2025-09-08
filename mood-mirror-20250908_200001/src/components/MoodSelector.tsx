@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Heart, Sparkles, Cloud, Sun, Moon, Zap, Palette, Music } from 'lucide-react';
 import { MOOD_COLORS, MoodType } from '../types';
 import { useMoodStore } from '../store/useMoodStore';
