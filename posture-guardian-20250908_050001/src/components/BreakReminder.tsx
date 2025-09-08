@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Bell, BellOff, Coffee, Pause, Play, RefreshCw } from 'lucide-react'
 import { usePostureStore } from '../store/postureStore'
 
