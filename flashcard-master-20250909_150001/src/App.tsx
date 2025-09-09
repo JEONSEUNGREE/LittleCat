@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useStore } from './store/useStore';
 import DeckList from './components/DeckList';
 import StudySession from './components/StudySession';
@@ -38,6 +38,7 @@ function App() {
         <DeckList 
           onSelectDeck={handleSelectDeck}
           onCreateDeck={handleCreateDeck}
+          onEditDeck={handleEditDeck}
         />
       )}
       

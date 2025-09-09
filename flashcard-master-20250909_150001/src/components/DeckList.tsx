@@ -1,9 +1,10 @@
-import React from 'react';
+
 import { useStore } from '../store/useStore';
-import { BookOpen, Plus, ChevronRight, Trash2 } from 'lucide-react';
+import { BookOpen, Plus, ChevronRight } from 'lucide-react';
 import { Deck } from '../types';
 
 interface DeckListProps {
+  onEditDeck?: (deckId: string) => void;
   onSelectDeck: (deckId: string) => void;
   onCreateDeck: () => void;
 }
