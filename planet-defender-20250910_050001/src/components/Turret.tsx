@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Zap, Star } from 'lucide-react';
 import { Turret as TurretType } from '../store/gameStore';
 import useGameStore from '../store/gameStore';
