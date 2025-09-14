@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+body {
+  font-family: 'Orbitron', monospace;
+  background: linear-gradient(180deg, #0a0e27 0%, #1e3a8a 100%);
+  overflow: hidden;
+  touch-action: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@layer utilities {
+  .game-text-shadow {
+    text-shadow: 0 0 10px rgba(96, 165, 250, 0.8);
+  }
+  
+  .neon-glow {
+    box-shadow: 0 0 20px rgba(96, 165, 250, 0.5),
+                0 0 40px rgba(96, 165, 250, 0.3),
+                0 0 60px rgba(96, 165, 250, 0.1);
+  }
+  
+  .laser-glow {
+    filter: drop-shadow(0 0 8px currentColor);
+  }
+}

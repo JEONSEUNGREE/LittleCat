@@ -8,7 +8,7 @@ export function Visualizer() {
   useEffect(() => {
     if (isPlaying) {
       const interval = setInterval(() => {
-        setBars(bars.map(() => Math.random() * (masterVolume / 100)))
+        setBars(prev => prev.map(() => Math.random() * (masterVolume / 100)))
       }, 100)
       return () => clearInterval(interval)
     } else {
