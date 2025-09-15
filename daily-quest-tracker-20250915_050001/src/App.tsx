@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { Plus, Sparkles, Filter, RefreshCw } from 'lucide-react'
 import { useQuestStore, Quest } from './store/questStore'
 import PlayerStats from './components/PlayerStats'
