@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import { Music, Pause, Play, RotateCcw } from 'lucide-react'
 import { useGameStore } from '../store/gameStore'
 import WordDisplay from './WordDisplay'
