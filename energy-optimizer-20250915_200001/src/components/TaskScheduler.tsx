@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Calendar, CheckCircle, Circle, Clock, Plus, Trash2, Zap } from 'lucide-react';
 import { useEnergyStore } from '../store/useEnergyStore';
 import { Task } from '../types';

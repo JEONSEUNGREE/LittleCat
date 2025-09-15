@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Battery, TrendingUp, TrendingDown, Zap } from 'lucide-react';
 import { useEnergyStore } from '../store/useEnergyStore';
 

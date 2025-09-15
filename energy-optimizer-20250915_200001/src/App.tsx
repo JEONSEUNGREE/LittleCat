@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { Activity, Brain, Moon, Sun } from 'lucide-react';
 import EnergyTracker from './components/EnergyTracker';
 import EnergyChart from './components/EnergyChart';

@@ -1,0 +1,150 @@
+import { Level } from '../types/game';
+
+export const levels: Level[] = [
+  {
+    id: 1,
+    name: '첫 번째 그림자',
+    targetShape: 'square',
+    lightSources: [
+      {
+        id: 'light-1',
+        position: { x: 50, y: 20 },
+        intensity: 1,
+        angle: 0,
+        color: '#fbbf24',
+        isDraggable: true,
+      },
+    ],
+    objects: [
+      {
+        id: 'obj-1',
+        position: { x: 50, y: 50 },
+        width: 80,
+        height: 80,
+        rotation: 0,
+        shape: 'square',
+        isDraggable: true,
+      },
+    ],
+    hints: [
+      '빛을 물체 위로 이동해보세요',
+      '물체를 회전시켜 그림자 모양을 바꿔보세요',
+      '목표 모양과 일치하도록 조정하세요',
+    ],
+    maxMoves: 20,
+    stars: {
+      one: 15,
+      two: 10,
+      three: 5,
+    },
+  },
+  {
+    id: 2,
+    name: '이중 그림자',
+    targetShape: 'hexagon',
+    lightSources: [
+      {
+        id: 'light-1',
+        position: { x: 30, y: 20 },
+        intensity: 0.8,
+        angle: 0,
+        color: '#fbbf24',
+        isDraggable: true,
+      },
+      {
+        id: 'light-2',
+        position: { x: 70, y: 20 },
+        intensity: 0.8,
+        angle: 0,
+        color: '#fde68a',
+        isDraggable: true,
+      },
+    ],
+    objects: [
+      {
+        id: 'obj-1',
+        position: { x: 35, y: 50 },
+        width: 60,
+        height: 60,
+        rotation: 0,
+        shape: 'triangle',
+        isDraggable: true,
+      },
+      {
+        id: 'obj-2',
+        position: { x: 65, y: 50 },
+        width: 60,
+        height: 60,
+        rotation: 0,
+        shape: 'triangle',
+        isDraggable: true,
+      },
+    ],
+    hints: [
+      '두 개의 빛을 활용하세요',
+      '삼각형을 적절히 배치하면 육각형이 됩니다',
+      '그림자가 겹치는 부분을 주목하세요',
+    ],
+    maxMoves: 25,
+    stars: {
+      one: 20,
+      two: 15,
+      three: 10,
+    },
+  },
+  {
+    id: 3,
+    name: '회전하는 빛',
+    targetShape: 'circle',
+    lightSources: [
+      {
+        id: 'light-1',
+        position: { x: 50, y: 10 },
+        intensity: 1.2,
+        angle: 45,
+        color: '#fef3c7',
+        isDraggable: true,
+      },
+    ],
+    objects: [
+      {
+        id: 'obj-1',
+        position: { x: 30, y: 40 },
+        width: 50,
+        height: 50,
+        rotation: 0,
+        shape: 'square',
+        isDraggable: true,
+      },
+      {
+        id: 'obj-2',
+        position: { x: 70, y: 40 },
+        width: 50,
+        height: 50,
+        rotation: 45,
+        shape: 'square',
+        isDraggable: true,
+      },
+      {
+        id: 'obj-3',
+        position: { x: 50, y: 60 },
+        width: 40,
+        height: 40,
+        rotation: 30,
+        shape: 'hexagon',
+        isDraggable: true,
+      },
+    ],
+    hints: [
+      '여러 물체의 그림자를 결합하세요',
+      '빛의 각도가 중요합니다',
+      '원형 그림자를 만들기 위해 물체들을 배치하세요',
+    ],
+    maxMoves: 30,
+    stars: {
+      one: 25,
+      two: 18,
+      three: 12,
+    },
+  },
+];

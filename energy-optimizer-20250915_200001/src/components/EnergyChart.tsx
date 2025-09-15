@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { BarChart3, Clock } from 'lucide-react';
 import { useEnergyStore } from '../store/useEnergyStore';
 
