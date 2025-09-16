@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useGameStore } from '../store/gameStore';
 import { Zap, Rocket, CircleDot, ArrowUp, DollarSign } from 'lucide-react';
 import { TowerType } from '../types/game';
