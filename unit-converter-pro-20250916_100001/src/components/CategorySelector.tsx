@@ -37,3 +37,5 @@ const CategorySelector: React.FC = () => {
     </div>
   )
 }
+
+export default CategorySelector

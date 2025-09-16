@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { ArrowUpDown, Star } from 'lucide-react'
 import { useConverterStore } from '../store/useConverterStore'
 import { conversionCategories, convertValue } from '../data/conversionData'
@@ -158,3 +158,5 @@ const ConverterPanel: React.FC = () => {
     </div>
   )
 }
+
+export default ConverterPanel

@@ -78,3 +78,5 @@ const HistoryPanel: React.FC = () => {
     </div>
   )
 }
+
+export default HistoryPanel
