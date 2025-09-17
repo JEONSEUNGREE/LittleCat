@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useGameStore } from '../store/gameStore';
 import { Moon, Play, Info, Trophy } from 'lucide-react';
 
