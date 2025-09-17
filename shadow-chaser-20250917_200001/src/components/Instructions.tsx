@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { HelpCircle, X, Lightbulb, Move, Target, Trophy } from 'lucide-react'
 
 const Instructions: React.FC = () => {
