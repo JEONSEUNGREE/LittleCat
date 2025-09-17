@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+body {
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+@layer components {
+  .drum-pad {
+    @apply relative overflow-hidden transition-all duration-75 rounded-lg;
+    @apply bg-gradient-to-br from-slate-700 to-slate-800;
+    @apply shadow-lg active:scale-95 active:shadow-md;
+    @apply hover:from-slate-600 hover:to-slate-700;
+  }
+  
+  .drum-pad.active {
+    @apply from-beat-primary to-pink-600;
+    @apply animate-pulse-beat;
+  }
+
+  .sequencer-step {
+    @apply w-8 h-8 rounded-full transition-all duration-200;
+    @apply bg-gray-700 hover:bg-gray-600 cursor-pointer;
+    @apply border-2 border-gray-600;
+  }
+  
+  .sequencer-step.active {
+    @apply bg-beat-secondary border-beat-secondary;
+    @apply shadow-md shadow-beat-secondary/50;
+  }
+  
+  .sequencer-step.playing {
+    @apply bg-beat-accent border-beat-accent scale-110;
+    @apply shadow-lg shadow-beat-accent/50;
+  }
+
+  .control-button {
+    @apply px-4 py-2 rounded-lg font-semibold transition-all duration-200;
+    @apply bg-gradient-to-r from-purple-500 to-pink-500;
+    @apply text-white shadow-lg hover:shadow-xl;
+    @apply active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .bpm-slider {
+    @apply w-full h-2 bg-gray-700 rounded-lg appearance-none cursor-pointer;
+  }
+  
+  .bpm-slider::-webkit-slider-thumb {
+    @apply appearance-none w-4 h-4 bg-beat-accent rounded-full cursor-pointer;
+    @apply hover:bg-beat-primary transition-colors duration-200;
+  }
+  
+  .bpm-slider::-moz-range-thumb {
+    @apply w-4 h-4 bg-beat-accent rounded-full cursor-pointer border-0;
+    @apply hover:bg-beat-primary transition-colors duration-200;
+  }
+}
