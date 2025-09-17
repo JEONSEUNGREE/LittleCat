@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { TrendingUp, TrendingDown, Activity, Award, BarChart3, Target } from 'lucide-react';
 import { useGameStore } from '../store/gameStore';
 

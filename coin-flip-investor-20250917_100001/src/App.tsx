@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Coins, ChartLine, BookOpen } from 'lucide-react';
 import { CoinFlip } from './components/CoinFlip';
 import { Stats } from './components/Stats';

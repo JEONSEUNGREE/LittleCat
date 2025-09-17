@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { DollarSign, TrendingUp, TrendingDown } from 'lucide-react';
 import { useGameStore } from '../store/gameStore';
 
