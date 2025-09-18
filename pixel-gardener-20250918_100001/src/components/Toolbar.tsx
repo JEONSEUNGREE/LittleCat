@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Droplets, Scissors, Sprout } from 'lucide-react';
 import { useGameStore } from '../store/gameStore';
 

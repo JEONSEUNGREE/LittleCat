@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Coins, Heart, Star, RefreshCw } from 'lucide-react';
 import { useGameStore } from '../store/gameStore';
 
