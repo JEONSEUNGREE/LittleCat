@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useBeatStore } from '../store/useBeatStore';
 import { Sparkles } from 'lucide-react';
 

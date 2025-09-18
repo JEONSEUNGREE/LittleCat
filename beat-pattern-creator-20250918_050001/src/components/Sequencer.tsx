@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { useBeatStore } from '../store/useBeatStore';
 import { audioEngine } from '../utils/audioEngine';
 import { Volume2, VolumeX, Trash2 } from 'lucide-react';

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { DrumPad } from './components/DrumPad';
 import { Sequencer } from './components/Sequencer';
 import { Controls } from './components/Controls';

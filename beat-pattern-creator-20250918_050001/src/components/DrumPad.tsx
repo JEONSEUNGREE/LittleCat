@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { SoundType } from '../types';
 import { audioEngine } from '../utils/audioEngine';
 import { Music } from 'lucide-react';
