@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useMoodStore } from '../store/useMoodStore';
 import { User, Heart, TrendingUp, Calendar } from 'lucide-react';
 

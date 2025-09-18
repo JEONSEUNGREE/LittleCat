@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useMoodStore } from '../store/useMoodStore';
 import { Clock, Wifi, WifiOff, Coffee } from 'lucide-react';
 import { Friend } from '../types';

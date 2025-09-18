@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Mood } from '../types';
 import { MOODS } from '../constants/moods';
 import { useMoodStore } from '../store/useMoodStore';

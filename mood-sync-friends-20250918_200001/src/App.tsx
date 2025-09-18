@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { MoodSelector } from './components/MoodSelector';
 import { FriendsList } from './components/FriendsList';
 import { UserMoodCard } from './components/UserMoodCard';
