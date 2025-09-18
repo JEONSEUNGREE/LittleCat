@@ -1,0 +1,88 @@
+import { Mood } from '../types';
+
+export const MOODS: Record<string, Mood> = {
+  happy: {
+    id: 'happy',
+    emoji: '😊',
+    name: '행복',
+    color: '#FFD93D',
+    gradient: 'linear-gradient(135deg, #FFD93D 0%, #FFC107 100%)',
+  },
+  excited: {
+    id: 'excited',
+    emoji: '🤗',
+    name: '신남',
+    color: '#FF6B6B',
+    gradient: 'linear-gradient(135deg, #FF6B6B 0%, #FF5252 100%)',
+  },
+  calm: {
+    id: 'calm',
+    emoji: '😌',
+    name: '평온',
+    color: '#4ECDC4',
+    gradient: 'linear-gradient(135deg, #4ECDC4 0%, #44A08D 100%)',
+  },
+  focused: {
+    id: 'focused',
+    emoji: '🧘',
+    name: '집중',
+    color: '#95E1D3',
+    gradient: 'linear-gradient(135deg, #95E1D3 0%, #77C3AC 100%)',
+  },
+  tired: {
+    id: 'tired',
+    emoji: '😴',
+    name: '피곤',
+    color: '#A8DADC',
+    gradient: 'linear-gradient(135deg, #A8DADC 0%, #7FA8AB 100%)',
+  },
+  stressed: {
+    id: 'stressed',
+    emoji: '😰',
+    name: '스트레스',
+    color: '#F1556C',
+    gradient: 'linear-gradient(135deg, #F1556C 0%, #D63649 100%)',
+  },
+  sad: {
+    id: 'sad',
+    emoji: '😔',
+    name: '슬픔',
+    color: '#748FFC',
+    gradient: 'linear-gradient(135deg, #748FFC 0%, #5B72DB 100%)',
+  },
+  angry: {
+    id: 'angry',
+    emoji: '😠',
+    name: '화남',
+    color: '#FF4757',
+    gradient: 'linear-gradient(135deg, #FF4757 0%, #E03B3B 100%)',
+  },
+  love: {
+    id: 'love',
+    emoji: '🥰',
+    name: '사랑',
+    color: '#FD79A8',
+    gradient: 'linear-gradient(135deg, #FD79A8 0%, #FC5C87 100%)',
+  },
+  grateful: {
+    id: 'grateful',
+    emoji: '🙏',
+    name: '감사',
+    color: '#FDCB6E',
+    gradient: 'linear-gradient(135deg, #FDCB6E 0%, #FDB44E 100%)',
+  },
+  anxious: {
+    id: 'anxious',
+    emoji: '😟',
+    name: '불안',
+    color: '#CAB8FF',
+    gradient: 'linear-gradient(135deg, #CAB8FF 0%, #B199E8 100%)',
+  },
+  creative: {
+    id: 'creative',
+    emoji: '🎨',
+    name: '창의적',
+    color: '#A29BFE',
+    gradient: 'linear-gradient(135deg, #A29BFE 0%, #8B7EE8 100%)',
+  },
+};
