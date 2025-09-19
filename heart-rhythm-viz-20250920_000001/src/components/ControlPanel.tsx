@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { Heart, Play, Pause, RefreshCw, TrendingUp, Activity } from 'lucide-react'
 import useHeartStore from '../store/useHeartStore'
 

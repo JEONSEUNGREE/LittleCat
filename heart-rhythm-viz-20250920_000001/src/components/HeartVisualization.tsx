@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import useHeartStore from '../store/useHeartStore'
 
 const HeartVisualization: React.FC = () => {

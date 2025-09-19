@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-hydro-50 to-hydro-100;
+    @apply min-h-screen;
+    @apply overflow-x-hidden;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/70 backdrop-blur-lg border border-white/30 rounded-2xl shadow-lg;
+  }
+  
+  .water-button {
+    @apply bg-gradient-to-r from-hydro-400 to-hydro-500 text-white font-semibold py-3 px-6 rounded-full;
+    @apply transform transition-all duration-200 hover:scale-105 active:scale-95;
+    @apply shadow-lg hover:shadow-xl;
+  }
+  
+  .rhythm-note {
+    @apply absolute rounded-full bg-gradient-to-br from-hydro-300 to-hydro-500;
+    @apply animate-bounce-soft;
+  }
+}
