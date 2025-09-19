@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Plus, Clock, Target, Zap, Check, Trash2, Edit2 } from 'lucide-react'
 import { useEnergyStore, Task } from '../store/useEnergyStore'
 
