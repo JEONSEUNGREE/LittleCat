@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Plus, Target, Sparkles, BarChart3 } from 'lucide-react'
 import useHabitStore, { Habit } from './store/habitStore'
 import HabitCard from './components/HabitCard'
