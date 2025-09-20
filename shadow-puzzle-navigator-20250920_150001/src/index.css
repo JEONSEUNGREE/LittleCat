@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+
+  html, body {
+    @apply h-full w-full m-0 p-0;
+    touch-action: manipulation;
+  }
+
+  #root {
+    @apply h-full w-full;
+  }
+}
+
+@layer components {
+  .shadow-effect {
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.8));
+    transition: filter 0.3s ease;
+  }
+
+  .light-beam {
+    background: linear-gradient(90deg, transparent, rgba(255, 215, 0, 0.3), transparent);
+    animation: beam-sweep 3s ease-in-out infinite;
+  }
+
+  .glow-effect {
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5),
+                0 0 40px rgba(255, 215, 0, 0.3),
+                0 0 60px rgba(255, 215, 0, 0.1);
+  }
+}
+
+@keyframes beam-sweep {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(200%); }
+}

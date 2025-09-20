@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Triangle, Square, Coins } from 'lucide-react';
 import { Obstacle as ObstacleType } from '../types/game';
 
