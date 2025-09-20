@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import MenuScreen from './components/MenuScreen'
 import GameCanvas from './components/GameCanvas'
 import GameUI from './components/GameUI'
