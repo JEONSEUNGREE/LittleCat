@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { X, Coffee, Cigarette, ShoppingBag, Gamepad2, Pizza, Beer, Car, Tv } from 'lucide-react'
 
 interface AddHabitModalProps {

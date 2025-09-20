@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Trash2, TrendingUp, Coins, Flame, Check } from 'lucide-react'
 import { Habit } from '../store/habitStore'
 

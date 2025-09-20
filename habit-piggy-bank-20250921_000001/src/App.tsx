@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { Plus, Info, Trophy } from 'lucide-react'
 import useHabitStore from './store/habitStore'
 import PiggyBank from './components/PiggyBank'
