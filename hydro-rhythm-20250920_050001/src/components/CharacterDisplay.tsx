@@ -103,3 +103,5 @@ const CharacterDisplay: React.FC = () => {
     </div>
   )
 }
+
+export default CharacterDisplay

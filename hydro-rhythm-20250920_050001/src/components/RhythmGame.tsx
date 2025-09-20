@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { Music, Droplets, Zap, Target } from 'lucide-react'
 import useHydroStore from '../store/useHydroStore'
 
@@ -166,3 +166,5 @@ const RhythmGame: React.FC = () => {
     </div>
   )
 }
+
+export default RhythmGame

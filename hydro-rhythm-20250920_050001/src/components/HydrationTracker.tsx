@@ -99,3 +99,5 @@ const HydrationTracker: React.FC = () => {
     </div>
   )
 }
+
+export default HydrationTracker
