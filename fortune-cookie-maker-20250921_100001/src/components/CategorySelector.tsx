@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import { Heart, Briefcase, Star, Smile } from 'lucide-react';
 import { FortuneCategory } from '../types';

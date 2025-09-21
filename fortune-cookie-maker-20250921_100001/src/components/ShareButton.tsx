@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Share2, Download, Copy, Check, Camera } from 'lucide-react';
 import { shareUtils } from '../utils/share';
