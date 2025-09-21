@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useWiFiStore } from '../store/wifiStore';
 import { Play, Pause, RotateCcw, Download, Settings, Layers } from 'lucide-react';
 

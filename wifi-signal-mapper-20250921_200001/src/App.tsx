@@ -1,4 +1,4 @@
-import React from 'react';
+
 import SignalMap from './components/SignalMap';
 import NetworkInfo from './components/NetworkInfo';
 import ControlPanel from './components/ControlPanel';

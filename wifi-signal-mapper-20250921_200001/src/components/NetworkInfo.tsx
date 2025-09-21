@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useWiFiStore } from '../store/wifiStore';
 import { Wifi, Lock, Activity, Radio } from 'lucide-react';
 

@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import { useWiFiStore } from '../store/wifiStore';
 import { MapPin } from 'lucide-react';
 
