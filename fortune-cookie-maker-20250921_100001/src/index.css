@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-red-50 to-amber-50 min-h-screen;
+  }
+}
+
+@layer components {
+  .cookie-shadow {
+    box-shadow: 
+      0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06),
+      inset 0 2px 4px 0 rgba(255, 255, 255, 0.5);
+  }
+  
+  .paper-texture {
+    background-image: 
+      repeating-linear-gradient(
+        90deg,
+        transparent,
+        transparent 2px,
+        rgba(255, 255, 255, .05) 2px,
+        rgba(255, 255, 255, .05) 4px
+      );
+  }
+
+  .fortune-paper {
+    background: linear-gradient(to right, #fef3c7, #fef9e7);
+    position: relative;
+  }
+
+  .fortune-paper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+      repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 20px,
+        rgba(139, 69, 19, 0.03) 20px,
+        rgba(139, 69, 19, 0.03) 21px
+      );
+  }
+}

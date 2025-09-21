@@ -1,0 +1,73 @@
+import { FortuneCategory } from '../types';
+
+export const fortunes: Record<FortuneCategory, string[]> = {
+  love: [
+    "Love is on the horizon, keep your heart open.",
+    "A special someone is thinking of you right now.",
+    "Your soulmate is closer than you think.",
+    "Romance will blossom in unexpected places.",
+    "True love never runs smooth, but it's worth the journey.",
+    "Your heart knows the way, follow it.",
+    "Someone from your past will re-enter your life with love.",
+    "The love you seek is seeking you too.",
+    "A romantic surprise awaits you this week.",
+    "Your next relationship will be your most meaningful.",
+    "Love will find you when you least expect it.",
+    "Open your heart to new possibilities in love.",
+    "A meaningful connection is about to enter your life.",
+    "Your kindness will attract genuine love.",
+    "The stars align for romance in your near future."
+  ],
+  career: [
+    "A promotion is in your near future.",
+    "Your hard work will soon be recognized.",
+    "A new opportunity will present itself this month.",
+    "Your next project will be a great success.",
+    "Financial prosperity is heading your way.",
+    "Your creative ideas will lead to success.",
+    "A mentor will appear when you need them most.",
+    "Your professional network is about to expand.",
+    "Success is the result of preparation meeting opportunity.",
+    "Your unique skills will open new doors.",
+    "A career change will bring unexpected happiness.",
+    "Your persistence will pay off handsomely.",
+    "Leadership opportunities are coming your way.",
+    "Your expertise will be sought after soon.",
+    "A business venture will exceed your expectations."
+  ],
+  life: [
+    "Adventure awaits around the corner.",
+    "Your positive energy attracts positive outcomes.",
+    "A long-cherished dream will soon come true.",
+    "The answer you seek is within you.",
+    "Good fortune will smile upon you today.",
+    "Your intuition will guide you to success.",
+    "A pleasant surprise will arrive soon.",
+    "Your generosity will be returned tenfold.",
+    "The journey of a thousand miles begins with a single step.",
+    "Your patience will be rewarded.",
+    "Something you lost will soon be found.",
+    "A new friendship will enrich your life.",
+    "Your wisdom will help someone in need.",
+    "Happiness is a choice you make every day.",
+    "The universe conspires to help you achieve your goals."
+  ],
+  funny: [
+    "You will step on a LEGO piece, but survive.",
+    "Your phone battery will last exactly when you need it to.",
+    "You will find money in your pocket that you forgot about.",
+    "Your next sneeze will be perfectly timed.",
+    "A random cat will judge you today.",
+    "You will successfully avoid all spoilers this week.",
+    "Your WiFi will work flawlessly when it matters most.",
+    "You will win an argument in the shower.",
+    "Your parallel parking will be legendary today.",
+    "You will remember where you put that thing.",
+    "Your next typo will be hilarious.",
+    "You will pick the faster checkout line.",
+    "Your hair will cooperate today.",
+    "You will wake up before your alarm, well-rested.",
+    "Your next joke will actually be funny."
+  ],
+  custom: []
+};

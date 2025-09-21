@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <path d="M50 10 C20 10, 10 30, 10 50 C10 70, 20 90, 50 90 C80 90, 90 70, 90 50 C90 30, 80 10, 50 10" fill="#F4A460"/>
+  <path d="M20 50 L80 50" stroke="#CD853F" stroke-width="2" fill="none"/>
+  <rect x="35" y="45" width="30" height="10" fill="#FFF" rx="2"/>
+  <text x="50" y="52" font-size="8" text-anchor="middle" fill="#000">FORTUNE</text>
+</svg>
