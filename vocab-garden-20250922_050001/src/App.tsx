@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { TreePine, BookOpen, List } from 'lucide-react'
 import Garden from './components/Garden'
 import WordQuiz from './components/WordQuiz'

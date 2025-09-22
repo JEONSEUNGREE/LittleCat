@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { BookOpen, Check, X, RefreshCw } from 'lucide-react'
 import { useGardenStore, Word } from '../store/useGardenStore'
 

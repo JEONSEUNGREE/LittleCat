@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Plus, Book, Star, Calendar } from 'lucide-react'
 import { useGardenStore } from '../store/useGardenStore'
 
