@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { usePixelStore } from '../store/pixelStore'
 import { Palette } from 'lucide-react'
 
