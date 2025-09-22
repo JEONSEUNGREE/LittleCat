@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import { Send, Play, RotateCcw, Clock } from 'lucide-react'
 import useGameStore from '../store/gameStore'
 

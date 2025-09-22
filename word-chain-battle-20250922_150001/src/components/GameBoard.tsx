@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import { MessageCircle, User, Bot } from 'lucide-react'
 import useGameStore from '../store/gameStore'
 
