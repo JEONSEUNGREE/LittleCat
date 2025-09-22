@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Star, Lock, ChevronRight } from 'lucide-react';
 import { useGameStore } from '../store/gameStore';
 import { levels } from '../data/levels';

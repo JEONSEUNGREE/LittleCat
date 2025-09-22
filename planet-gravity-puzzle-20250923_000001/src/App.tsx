@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Rocket, Menu, Volume2, VolumeX } from 'lucide-react';
 import GameCanvas from './components/GameCanvas';
 import GameControls from './components/GameControls';

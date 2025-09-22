@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Play, RotateCcw, Pause, Star, Info } from 'lucide-react';
 import { useGameStore } from '../store/gameStore';
 
