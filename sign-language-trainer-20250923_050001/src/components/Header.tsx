@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Hand, Trophy, Zap, Home } from 'lucide-react';
 import { useAppStore } from '../store/useAppStore';
 

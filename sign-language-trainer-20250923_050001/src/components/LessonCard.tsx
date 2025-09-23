@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { BookOpen, Star, Lock, CheckCircle } from 'lucide-react';
 
 interface LessonProps {

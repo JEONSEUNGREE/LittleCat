@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Header from './components/Header';
 import LessonCard from './components/LessonCard';
 import LearningView from './components/LearningView';
