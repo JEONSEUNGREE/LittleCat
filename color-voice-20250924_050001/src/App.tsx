@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { RefreshCw, Zap } from 'lucide-react'
 import ColorPicker from './components/ColorPicker'
 import SoundController from './components/SoundController'

@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import { Volume2, Play, Pause, Mic, Music } from 'lucide-react'
 import { AudioManager } from '../utils/audioUtils'
 import { frequencyToColor, frequencyToNote } from '../utils/colorUtils'
