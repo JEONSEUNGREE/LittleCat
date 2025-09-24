@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Camera, CameraOff, AlertCircle, CheckCircle, Activity } from 'lucide-react'
 import usePostureStore from '../store/usePostureStore'
 
