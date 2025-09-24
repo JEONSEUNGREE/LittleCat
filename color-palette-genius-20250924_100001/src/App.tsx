@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { Palette } from 'lucide-react'
 import ColorCard from './components/ColorCard'
 import PaletteControls from './components/PaletteControls'

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Lock, Unlock, Copy, X, RefreshCw } from 'lucide-react'
 import usePaletteStore from '../store/paletteStore'
 

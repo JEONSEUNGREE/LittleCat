@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react'
+import { useState, useRef } from 'react'
 import { Shuffle, Save, Download, Upload, Plus, Image } from 'lucide-react'
 import usePaletteStore from '../store/paletteStore'
 
