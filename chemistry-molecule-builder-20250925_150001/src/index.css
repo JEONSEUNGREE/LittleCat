@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900;
+    @apply min-h-screen;
+  }
+}
+
+@layer components {
+  .atom-button {
+    @apply px-3 py-2 rounded-lg font-medium transition-all duration-200;
+    @apply shadow-lg hover:shadow-xl transform hover:-translate-y-0.5;
+    @apply active:translate-y-0 active:shadow-md;
+  }
+
+  .molecule-canvas {
+    @apply bg-gray-800 bg-opacity-50 backdrop-blur-sm;
+    @apply rounded-2xl shadow-2xl border border-gray-700;
+    @apply p-4 relative overflow-hidden;
+  }
+
+  .element-badge {
+    @apply inline-flex items-center justify-center;
+    @apply w-12 h-12 rounded-full font-bold text-lg;
+    @apply shadow-md border-2 border-opacity-50;
+    @apply cursor-pointer transition-all duration-200;
+    @apply hover:scale-110 active:scale-95;
+  }
+
+  .bond-line {
+    @apply absolute bg-gray-400;
+    @apply transition-all duration-200;
+  }
+}
+
+@layer utilities {
+  .element-carbon { @apply bg-gray-700 text-white border-gray-600; }
+  .element-hydrogen { @apply bg-white text-gray-900 border-gray-300; }
+  .element-oxygen { @apply bg-red-500 text-white border-red-600; }
+  .element-nitrogen { @apply bg-blue-500 text-white border-blue-600; }
+  .element-sulfur { @apply bg-yellow-400 text-gray-900 border-yellow-500; }
+  .element-phosphorus { @apply bg-orange-500 text-white border-orange-600; }
+  .element-chlorine { @apply bg-green-500 text-white border-green-600; }
+  .element-bromine { @apply bg-amber-700 text-white border-amber-800; }
+}
