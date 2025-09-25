@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import { useRef, useState } from 'react'
 import useMoleculeStore from '../store/moleculeStore'
 
 const elementColors: Record<string, string> = {
