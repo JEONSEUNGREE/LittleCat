@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { BookOpen, Palette, Save } from 'lucide-react'
 import EmojiPicker from './components/EmojiPicker'
 import StoryCanvas from './components/StoryCanvas'

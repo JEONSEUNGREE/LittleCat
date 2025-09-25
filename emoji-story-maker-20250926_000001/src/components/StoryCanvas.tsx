@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Trash2, Save, RefreshCw, Share2 } from 'lucide-react'
 import useStoryStore from '../store/useStoryStore'
 
