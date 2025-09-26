@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import TimerDisplay from './components/TimerDisplay';
 import TimerControls from './components/TimerControls';
 import FlowInsights from './components/FlowInsights';

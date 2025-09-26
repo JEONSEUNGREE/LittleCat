@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Play, Pause, RotateCcw, SkipForward, Settings } from 'lucide-react';
 import useTimerStore from '../store/useTimerStore';
 

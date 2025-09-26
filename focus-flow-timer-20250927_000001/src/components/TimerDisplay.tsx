@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Clock, Brain, Target, Flame } from 'lucide-react';
 import useTimerStore from '../store/useTimerStore';
 

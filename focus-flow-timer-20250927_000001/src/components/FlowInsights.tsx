@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { TrendingUp, Activity, Zap, Calendar } from 'lucide-react';
 import useTimerStore from '../store/useTimerStore';
 
