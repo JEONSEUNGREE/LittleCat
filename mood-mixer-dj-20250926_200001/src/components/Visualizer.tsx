@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useDJStore } from '../store/useDJStore'
 import { Activity, Radio, Waves } from 'lucide-react'
 

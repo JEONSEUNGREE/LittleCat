@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-slate-50 to-blue-50 min-h-screen;
+    @apply text-slate-900;
+  }
+}
+
+@layer components {
+  .timer-ring {
+    stroke-dasharray: 565.48;
+    stroke-dashoffset: 0;
+    transform: rotate(-90deg);
+    transform-origin: center;
+    transition: stroke-dashoffset 1s linear;
+  }
+  
+  .glass-effect {
+    @apply backdrop-blur-lg bg-white/70 border border-white/30;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+  }
+  
+  .button-primary {
+    @apply px-6 py-3 bg-gradient-to-r from-primary-500 to-primary-600;
+    @apply text-white font-medium rounded-xl shadow-lg;
+    @apply hover:from-primary-600 hover:to-primary-700;
+    @apply transition-all duration-200 hover:scale-105;
+    @apply active:scale-95;
+  }
+  
+  .button-secondary {
+    @apply px-6 py-3 bg-white/80 backdrop-blur-sm;
+    @apply text-primary-700 font-medium rounded-xl;
+    @apply border border-primary-200;
+    @apply hover:bg-white transition-all duration-200;
+    @apply hover:shadow-md active:scale-95;
+  }
+}
