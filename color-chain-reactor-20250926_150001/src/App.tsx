@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import GameHeader from './components/GameHeader'
 import ColorSelector from './components/ColorSelector'
 import GameGrid from './components/GameGrid'
