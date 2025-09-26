@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Clock, CheckCircle, PlayCircle, RotateCcw, Target } from 'lucide-react'
 import { usePostureStore } from '../store/postureStore'
 

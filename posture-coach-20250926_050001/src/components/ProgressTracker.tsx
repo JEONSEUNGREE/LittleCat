@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { TrendingUp, Calendar, Award, Target, ChevronLeft, ChevronRight } from 'lucide-react'
 import { usePostureStore } from '../store/postureStore'
 
