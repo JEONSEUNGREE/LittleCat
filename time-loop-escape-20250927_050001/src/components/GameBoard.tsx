@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { Clock, RotateCcw, Trophy, Info } from 'lucide-react'
 import { useGameStore } from '../store/gameStore'
 import ActionButton from './ActionButton'
