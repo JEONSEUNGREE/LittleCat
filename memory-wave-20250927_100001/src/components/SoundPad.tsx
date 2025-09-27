@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Volume2 } from 'lucide-react'
 import { audioEngine } from '../utils/audioEngine'
 import useGameStore from '../store/gameStore'
