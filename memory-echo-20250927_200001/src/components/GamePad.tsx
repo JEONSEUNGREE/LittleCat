@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Music, Volume2 } from 'lucide-react';
 import { useGameStore, SoundNote, playSound } from '../store/gameStore';
 

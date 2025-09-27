@@ -1,4 +1,4 @@
-import React from 'react';
+
 import GameMenu from './components/GameMenu';
 import GamePad from './components/GamePad';
 import ScoreBoard from './components/ScoreBoard';

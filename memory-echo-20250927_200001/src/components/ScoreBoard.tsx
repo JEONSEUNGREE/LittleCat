@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Trophy, Heart, Zap, Target } from 'lucide-react';
 import { useGameStore } from '../store/gameStore';
 
