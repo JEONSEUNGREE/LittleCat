@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { useGameStore } from '../store/gameStore';
 import FallingWordComponent from './FallingWord';
 import TypeInput from './TypeInput';
