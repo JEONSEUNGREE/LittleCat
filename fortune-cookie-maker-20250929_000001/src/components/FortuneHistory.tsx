@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { History, X, Calendar, Hash } from 'lucide-react'
 import { useFortuneStore } from '../store/useFortuneStore'
 

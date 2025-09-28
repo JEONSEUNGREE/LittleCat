@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { MessageCircle, Send } from 'lucide-react'
 import { useFortuneStore } from '../store/useFortuneStore'
 
