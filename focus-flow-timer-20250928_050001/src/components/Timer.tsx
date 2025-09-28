@@ -1,4 +1,4 @@
-import React, { useEffect, useCallback } from 'react'
+import { useEffect, useCallback } from 'react'
 import { Play, Pause, RotateCcw, Brain, Coffee, Target } from 'lucide-react'
 import { useTimerStore } from '../store/timerStore'
 

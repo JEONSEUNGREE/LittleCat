@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Sliders, Volume2, VolumeX, Sparkles } from 'lucide-react'
 import { useTimerStore } from '../store/timerStore'
 
