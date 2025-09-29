@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Plus, Castle, Brain, Trophy, TrendingUp, Calendar, Target } from 'lucide-react'
 import { useMemoryStore } from '../store/useMemoryStore'
 

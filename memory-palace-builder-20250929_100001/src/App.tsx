@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Brain, Home, Target, BarChart3, Menu, X, ChevronLeft } from 'lucide-react'
 import Dashboard from './components/Dashboard'
 import PalaceBuilder from './components/PalaceBuilder'

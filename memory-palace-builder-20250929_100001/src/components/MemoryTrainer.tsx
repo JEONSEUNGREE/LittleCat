@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { Brain, Target, Award, Clock, RefreshCw, CheckCircle, XCircle } from 'lucide-react'
 import { useMemoryStore } from '../store/useMemoryStore'
 
