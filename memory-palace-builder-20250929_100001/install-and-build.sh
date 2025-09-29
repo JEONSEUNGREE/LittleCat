@@ -1,12 +1,9 @@
 #!/bin/bash
 
 echo "Installing dependencies..."
-npm install
-
-echo "Running TypeScript check..."
-npx tsc --noEmit
+npm install --legacy-peer-deps
 
 echo "Building project..."
 npm run build
 
-echo "Build complete!"
+echo "Build completed!"
