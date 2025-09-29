@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { Dna, TrendingUp, Brain, Target } from 'lucide-react';
 import DNAVisualization from './components/DNAVisualization';
 import TransactionList from './components/TransactionList';

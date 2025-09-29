@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Dna, TrendingUp, TrendingDown, Minus } from 'lucide-react';
 import { SpendingDNA } from '../types';
 

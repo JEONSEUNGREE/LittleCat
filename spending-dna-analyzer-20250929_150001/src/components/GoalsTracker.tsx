@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Target, Plus, Trophy, Clock, AlertCircle } from 'lucide-react';
 import useStore from '../store/useStore';
 import { FinancialGoal } from '../types';

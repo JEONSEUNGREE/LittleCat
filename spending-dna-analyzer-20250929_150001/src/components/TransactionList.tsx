@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Plus, Trash2, DollarSign, Calendar, Tag } from 'lucide-react';
 import { Transaction, SpendingCategory } from '../types';
 import useStore from '../store/useStore';
