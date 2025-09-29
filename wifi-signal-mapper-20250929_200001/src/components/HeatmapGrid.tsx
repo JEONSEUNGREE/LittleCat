@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react'
+import { useMemo } from 'react'
 import { getSignalColor, generateHeatmapData } from '../utils/signalUtils'
 import useWifiStore from '../store/useWifiStore'
 

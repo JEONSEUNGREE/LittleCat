@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import HeatmapGrid from './components/HeatmapGrid'
 import NetworkList from './components/NetworkList'
 import ControlPanel from './components/ControlPanel'
