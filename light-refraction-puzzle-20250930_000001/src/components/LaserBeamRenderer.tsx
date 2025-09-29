@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { LaserBeam } from '../types';
 import { getBeamPath } from '../utils/physics';
 

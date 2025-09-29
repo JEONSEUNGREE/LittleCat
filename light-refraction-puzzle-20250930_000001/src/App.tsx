@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import GameGrid from './components/GameGrid';
 import ToolBar from './components/ToolBar';
 import LevelInfo from './components/LevelInfo';

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useGameStore } from '../store/gameStore';
 import { levels } from '../data/levels';
 import { Zap, Target, Square } from 'lucide-react';
