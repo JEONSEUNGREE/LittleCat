@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Debt } from '../types/debt';
 import { DollarSign, TrendingDown, CheckCircle2, Trash2 } from 'lucide-react';
 

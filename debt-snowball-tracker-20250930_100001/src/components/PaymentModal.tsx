@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { X, DollarSign } from 'lucide-react';
 import { Debt } from '../types/debt';
 

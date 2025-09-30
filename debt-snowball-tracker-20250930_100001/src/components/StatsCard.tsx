@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { TrendingDown, Calendar, PiggyBank, Target } from 'lucide-react';
 import { SnowballStats } from '../types/debt';
 

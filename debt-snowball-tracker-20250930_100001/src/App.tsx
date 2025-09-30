@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useDebtStore } from './store/useDebtStore';
 import { DebtCard } from './components/DebtCard';
 import { StatsCard } from './components/StatsCard';
