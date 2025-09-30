@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { BarChart3, ListTodo, Menu, X } from 'lucide-react';
 import { Dashboard } from './components/Dashboard';
 import { TaskInput } from './components/TaskInput';

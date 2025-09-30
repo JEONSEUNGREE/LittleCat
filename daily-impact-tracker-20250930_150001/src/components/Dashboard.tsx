@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { TrendingUp, Clock, Target, Award, Activity, Calendar } from 'lucide-react';
 import { useStore } from '../store/useStore';
 

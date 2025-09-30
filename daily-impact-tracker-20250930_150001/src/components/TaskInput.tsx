@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Plus, X, Zap, Clock, Tag, ChevronDown } from 'lucide-react';
 import { useStore } from '../store/useStore';
 

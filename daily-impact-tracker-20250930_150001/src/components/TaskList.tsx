@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { CheckCircle2, Circle, Trash2, Edit2, Clock, Zap, Tag, Filter } from 'lucide-react';
 import { useStore } from '../store/useStore';
 import { Task } from '../types';
