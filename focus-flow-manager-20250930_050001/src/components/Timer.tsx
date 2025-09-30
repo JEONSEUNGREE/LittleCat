@@ -1,4 +1,4 @@
-import React, { useEffect, useCallback } from 'react'
+import { useEffect, useCallback } from 'react'
 import { Play, Pause, Square, Brain, Target } from 'lucide-react'
 import { useFocusStore } from '../store/useFocusStore'
 

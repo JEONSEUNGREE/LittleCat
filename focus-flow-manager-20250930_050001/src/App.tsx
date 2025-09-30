@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { Brain, Settings, Home, BarChart } from 'lucide-react'
 import { Timer } from './components/Timer'
 import { SessionInput } from './components/SessionInput'

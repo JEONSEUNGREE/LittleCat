@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Clock, Zap, Coffee, Mountain } from 'lucide-react'
 import { useFocusStore } from '../store/useFocusStore'
 
