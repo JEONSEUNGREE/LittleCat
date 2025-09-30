@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Activity, AlertTriangle, TrendingUp, Pause, Play, User, Target } from 'lucide-react';
 import { useApp } from '../context/AppContext';
