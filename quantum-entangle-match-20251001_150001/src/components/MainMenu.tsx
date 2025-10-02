@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Play, Info, Settings, Award } from 'lucide-react';
 import { useGameStore } from '../store/gameStore';
 

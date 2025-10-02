@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Atom, Zap, Circle } from 'lucide-react';
 import { useGameStore } from '../store/gameStore';
 import { Particle } from '../types';
