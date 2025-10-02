@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Play, Pause, RotateCcw, Mic, MicOff } from 'lucide-react';
 import { useRhythmStore } from '../store/useRhythmStore';
 

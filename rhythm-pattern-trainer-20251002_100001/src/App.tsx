@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Music2, Info } from 'lucide-react';
 import { PatternSelector } from './components/PatternSelector';
 import { PatternDisplay } from './components/PatternDisplay';

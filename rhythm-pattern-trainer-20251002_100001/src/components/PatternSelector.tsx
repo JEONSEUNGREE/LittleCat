@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { ChevronRight, Lock, CheckCircle } from 'lucide-react';
 import { Pattern } from '../types';
 import { patterns } from '../data/patterns';

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Trophy, Zap, Target, TrendingUp } from 'lucide-react';
 import { useRhythmStore } from '../store/useRhythmStore';
 

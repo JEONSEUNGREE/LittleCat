@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Music, Pause } from 'lucide-react';
 import { Pattern, Note } from '../types';
 
