@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import QRCode from 'qrcode'
 import { Download, Copy, Share2, Palette, Type, Wifi, Mail, Phone, Link } from 'lucide-react'
 import useQRStore from '../store/useQRStore'

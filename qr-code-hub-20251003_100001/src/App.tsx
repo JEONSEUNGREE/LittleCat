@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { QrCode, Plus, History, BarChart3, Menu, X } from 'lucide-react'
 import QRGenerator from './components/QRGenerator'
 import QRHistory from './components/QRHistory'

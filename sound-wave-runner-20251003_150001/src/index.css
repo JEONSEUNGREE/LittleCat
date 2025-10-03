@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-game-dark text-game-light;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    overscroll-behavior: contain;
+  }
+}
+
+@layer components {
+  .wave-gradient {
+    background: linear-gradient(135deg, #ff8906 0%, #f25f4c 50%, #e53170 100%);
+  }
+  
+  .game-button {
+    @apply px-6 py-3 rounded-lg font-bold transition-all duration-200;
+    @apply bg-game-primary text-game-dark hover:bg-game-secondary;
+    @apply active:scale-95 shadow-lg hover:shadow-xl;
+  }
+  
+  .sound-wave {
+    background: linear-gradient(90deg, 
+      transparent 0%, 
+      rgba(255, 137, 6, 0.3) 25%, 
+      rgba(255, 137, 6, 0.8) 50%, 
+      rgba(255, 137, 6, 0.3) 75%, 
+      transparent 100%);
+  }
+}
