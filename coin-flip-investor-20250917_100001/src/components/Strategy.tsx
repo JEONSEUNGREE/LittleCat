@@ -1,3 +1,4 @@
+import React from 'react';
 
 import { Brain, Shield, Zap, TrendingUp, RefreshCw, Info } from 'lucide-react';
 import { useGameStore } from '../store/gameStore';

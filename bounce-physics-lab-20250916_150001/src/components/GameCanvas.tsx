@@ -1,3 +1,4 @@
+import React from 'react';
 import { useEffect, useRef } from 'react'
 import { useGameStore } from '../store/gameStore'
 import { Target } from 'lucide-react'

@@ -1,3 +1,4 @@
+import React from 'react';
 import { useEffect, useRef } from 'react';
 import { useBeatStore } from '../store/useBeatStore';
 import { audioEngine } from '../utils/audioEngine';

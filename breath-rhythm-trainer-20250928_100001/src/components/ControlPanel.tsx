@@ -1,3 +1,4 @@
+import React from 'react';
 import { useEffect, useRef } from 'react'
 import { Play, Pause, RotateCcw, Volume2, VolumeX, Smartphone } from 'lucide-react'
 import { useBreathStore } from '../store/breathStore'

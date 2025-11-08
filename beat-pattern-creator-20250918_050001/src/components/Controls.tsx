@@ -1,3 +1,4 @@
+import React from 'react';
 
 import { useBeatStore } from '../store/useBeatStore';
 import { Play, Pause, RotateCcw, Plus, Save, Share2 } from 'lucide-react';
